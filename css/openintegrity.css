@@ -37,7 +37,8 @@
 }
 
 #nav a {
-  color: #fff;
+  color: #000;
+  text-transform: uppercase;
   text-decoration: none;
   padding: 0 17px;
   margin: 0;
@@ -51,8 +52,7 @@
 }
 
 #nav li a:hover {
-	background: #212428;
-	background: rgba(255,255,255,0.2) !important;
+	background: #4138e8;
 	-webkit-border-radius: 7px;
 	border-radius: 7px;
 }

@@ -1,4 +1,4 @@
-<header id="navbar" role="banner" class="navbar navbar-fixed-top">
+<header id="navbar" role="banner" class="navbar container">
   <div class="navbar-inner">
     <div class="container">
       <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
@@ -18,7 +18,7 @@
 
       <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
         <div class="nav-collapse collapse span9">
-          <nav role="navigation">
+          <nav role="navigation" id="nav">
             <?php if (!empty($primary_nav)): ?>
               <?php print render($primary_nav); ?>
             <?php endif; ?>
