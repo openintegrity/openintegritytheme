@@ -1,4 +1,4 @@
-name = Bootstrap
+name = Open Integrity Index Theme
 description = Built to use Bootstrap, a sleek, intuitive, and powerful front-end framework for faster and easier web development.
 core = 7.x
 regions[navigation]     = 'Navigation'
