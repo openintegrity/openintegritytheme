@@ -17,7 +17,7 @@ settings[cdn_bootstrap_version] = 2.3.2
 
 stylesheets[all][] = bootstrap/css/bootstrap.css
 stylesheets[all][] = bootstrap/css/bootstrap-responsive.css
-stylesheets[all][] = css/style.css
+stylesheets[all][] = css/overrides.css
 
 ;Exclude
 ;javascript
