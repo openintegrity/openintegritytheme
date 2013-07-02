@@ -1,0 +1,58 @@
+
+/* -- Navigation
+------------------------ */
+
+.navbar-inner {
+  background-color: transparent;
+  background-image: none;
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  filter: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+
+#nav ul {
+  float: right !important;
+	
+  margin: 1.5em 0;
+  padding: 0;
+  list-style: none;
+  width: auto;
+  -webkit-border-radius: 7px;  
+  border-radius: 7px;
+  background: rgba(255,255,255,0.1);
+}
+
+#nav li {
+  display: block;
+  float: left;
+  width: 100%;
+  width: auto;
+  *width: 24.9%; /* IE7 Hack */ /* IE6 Hack */
+}
+
+#nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 17px;
+  margin: 0;
+  float: left;
+  font-weight: 300;
+  line-height: 45px;
+	background: none;
+	
+  font-size: 1.2em;
+	font-weight: 300;
+}
+
+#nav li a:hover {
+	background: #212428;
+	background: rgba(255,255,255,0.2) !important;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+}
