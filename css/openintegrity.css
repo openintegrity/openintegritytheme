@@ -42,18 +42,23 @@
   text-transform: uppercase;
   text-decoration: none;
   padding: 0 17px;
-  margin: 0;
+  margin: 0 0 0 30px;
   float: left;
   font-weight: 300;
-  line-height: 45px;
-	background: none;
-	
-  font-size: 1.2em;
-	font-weight: 300;
+  line-height: 32px;
+  background: none;
+  font-size: 1em;
+  font-weight: 300;
+  text-shadow: none;
 }
 
-#nav li a:hover {
+#nav li a:hover,
+#nav li a:active {
 	background: #4138e8;
+	color: #fff;
 	-webkit-border-radius: 7px;
 	border-radius: 7px;
+	-webkit-box-shadow: 1px 1px 0 rgba(40,37,144,0.75);
+	-moz-box-shadow: 1px 1px 0 rgba(40,37,144,0.75);
+	box-shadow: 1px 1px 0 rgba(40,37,144,0.75);
 }
