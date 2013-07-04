@@ -53,7 +53,7 @@
 }
 
 #nav li a:hover,
-#nav li a:active {
+#nav li a.active {
 	background: #4138e8;
 	color: #fff;
 	-webkit-border-radius: 7px;
@@ -61,4 +61,13 @@
 	-webkit-box-shadow: 1px 1px 0 rgba(40,37,144,0.75);
 	-moz-box-shadow: 1px 1px 0 rgba(40,37,144,0.75);
 	box-shadow: 1px 1px 0 rgba(40,37,144,0.75);
+}
+
+
+/* -- Footer
+------------------------ */
+
+.footer {
+  background-color:#333;
+  color: #fff;
 }
