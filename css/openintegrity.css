@@ -7,7 +7,7 @@
 ------------------------ */
 
 body {
-  font-family: 'Metrophobic', Arial, serif; 
+  font-family: 'Metrophobic', Arial, serif;
 }
 
 h1, h2, h3, h4, h5, h6 { 
@@ -165,16 +165,17 @@ h6 {
   background-color: #ddd;
   background-image: none;
   border-color: transparent;
-  -webkit-border-radius: 0;
+  /*-webkit-border-radius: 0;
   -moz-border-radius: 0;
-  border-radius: 0;
+  border-radius: 0;*/
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
+  text-transform: uppercase;
 }
 
 .btn-primary {
-  padding: 12px 40px;
+  padding: 6px 40px;
   background: #4138e8;
   color: #fff;
   border-color: transparent;
