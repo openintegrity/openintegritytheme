@@ -160,7 +160,7 @@ h6 {
 ------------------------ */
 
 .btn {
-  padding: 12px 16px;
+  padding: 6px 40px
   text-shadow: none;
   background-color: #ddd;
   background-image: none;
@@ -175,7 +175,6 @@ h6 {
 }
 
 .btn-primary {
-  padding: 6px 40px;
   background: #4138e8;
   color: #fff;
   border-color: transparent;
