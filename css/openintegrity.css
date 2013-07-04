@@ -1,4 +1,19 @@
 @media(min-width:980px) and (max-width:1199px),(min-width:1200px){body{padding-top:10px}}body.toolbar .navbar-fixed-top{top:10px}body.toolbar-drawer .navbar-fixed-top{top:10px}
+@import url(http://fonts.googleapis.com/css?family=Metrophobic|Montserrat:400,700);
+
+
+
+/* -- Typography
+------------------------ */
+
+body {
+  font-family: 'Metrophobic', Arial, serif; 
+}
+
+h2, h3, h4 { 
+  font-family: ‘Metrophobic’, Arial, serif; font-weight: 700; 
+}
+
 
 /* -- Navigation
 ------------------------ */
@@ -104,5 +119,5 @@
 
 .social-block {
   height: 82px;
-  background: url('../img/integrity-icon.png') top right;
+  background: url('../img/integrity-icon.png') no-repeat top right;
 }
