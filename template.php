@@ -239,9 +239,9 @@ function bootstrap_preprocess_region(&$variables, $hook) {
     $variables['theme_hook_suggestions'][] = 'region__no_wrapper';
   }
   
-  if ($variables['region'] == "sidebar_first") {
+  /*if ($variables['region'] == "sidebar_first") {
     $variables['classes_array'][] = 'well';
-  }
+  }*/
 }
 
 /**
