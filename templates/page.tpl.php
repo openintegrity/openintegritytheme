@@ -35,8 +35,16 @@
   </div>
 </header>
 
+
+<?php if (!empty($page['highlighted'])): ?>
+  <div class="row row-hero">
+    <div class="highlighted hero-unit"><?php print render($page['highlighted']); ?></div>
+  </div>
+<?php endif; ?>
+
 <div class="main-container container">
 
+  <?php if (!empty($page['header'])): ?>
   <header role="banner" id="page-header">
     <?php if (!empty($site_slogan)): ?>
       <p class="lead"><?php print $site_slogan; ?></p>
@@ -44,11 +52,15 @@
 
     <?php print render($page['header']); ?>
   </header> <!-- /#header -->
+  <?php endif; ?> 
 
-  <div class="row-fluid">
-	<?php if (!empty($page['highlighted'])): ?>
-      <div class="highlighted hero-unit"><?php print render($page['highlighted']); ?></div>
-    <?php endif; ?>
+  <?php if (!empty($page['icons'])): ?>
+    <div class="row">
+      <div class="container icons-region"><?php print render($page['icons']); ?></div>
+    </div>
+  <?php endif; ?>
+
+  <div class="row">
 
     <?php if (!empty($page['sidebar_first'])): ?>
       <aside id="sidebar-first" class="span3" role="complementary">
