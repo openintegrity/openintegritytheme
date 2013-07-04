@@ -71,3 +71,19 @@
   background-color:#333;
   color: #fff;
 }
+
+.social-links {
+  list-style: none;
+  overflow: hidden;
+}
+
+.social-links a {
+  height: 38px;
+  width: 34px;
+  display: block;
+  float: left;
+  margin: 0 10px 0 0;
+  overflow:hidden;
+  text-indent:-9999px;
+  background: url('../img/social-links.png') top left;
+}
