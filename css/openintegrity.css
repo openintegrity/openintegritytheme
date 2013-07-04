@@ -189,3 +189,47 @@ h6 {
   -moz-box-shadow: 1px 1px 0 rgba(40,37,144,0.75);
   box-shadow: 1px 1px 0 rgba(40,37,144,0.75);
 }
+
+
+/* -- Home
+------------------------ */
+
+.home1, .home2, .home3 {
+  padding-top: 120px;
+}
+
+.home1 {
+  background: url('../img/home-1.png') no-repeat top center;
+}
+
+.home2 {
+  background: url('../img/home-2.png') no-repeat top center;
+}
+
+.home3 {
+  background: url('../img/home-3.png') no-repeat top center;
+}
+
+.row-icons h2 {
+  font-size: 12px;
+  text-align: center;
+}
+
+
+/* -- Hero
+------------------------ */
+
+.row-hero {
+  height: 512px;
+  background: #e6e6e6 url('../img/hero-bg.png') no-repeat center center;
+}
+
+.hero-unit h2 {
+  font-size: 40px;
+  text-align:center;
+}
+
+.hero-unit {
+  border-radius: 0;
+  background-color: transparent;
+}

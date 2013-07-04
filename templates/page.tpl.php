@@ -38,7 +38,7 @@
 
 <?php if (!empty($page['highlighted'])): ?>
   <div class="row row-hero">
-    <div class="highlighted hero-unit"><?php print render($page['highlighted']); ?></div>
+    <div class="highlighted hero-unit"><div class="container"><?php print render($page['highlighted']); ?></div></div>
   </div>
 <?php endif; ?>
 
@@ -55,8 +55,8 @@
   <?php endif; ?> 
 
   <?php if (!empty($page['icons'])): ?>
-    <div class="row">
-      <div class="container icons-region"><?php print render($page['icons']); ?></div>
+    <div class="row row-icons">
+      <?php print render($page['icons']); ?>
     </div>
   <?php endif; ?>
 
