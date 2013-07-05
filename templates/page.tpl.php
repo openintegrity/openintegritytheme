@@ -42,8 +42,6 @@
   </div>
 <?php endif; ?>
 
-<div class="main-container container">
-
   <?php if (!empty($page['header'])): ?>
   <header role="banner" id="page-header">
     <?php if (!empty($site_slogan)): ?>
@@ -55,12 +53,13 @@
   <?php endif; ?> 
 
   <?php if (!empty($page['icons'])): ?>
-    <div class="row row-icons">
+    <div class="row row-icons container">
       <?php print render($page['icons']); ?>
     </div>
   <?php endif; ?>
 
-  <div class="row">
+  <div class="row row-content">
+    <div class="container">
 
     <?php if (!empty($page['sidebar_first'])): ?>
       <aside id="sidebar-first" class="span3" role="complementary">
@@ -95,8 +94,10 @@
       </aside>  <!-- /#sidebar-second -->
     <?php endif; ?>
 
+    </div>
   </div>
-</div>
+
+
 <footer class="footer">
   <div class="container">
     <?php print render($page['footer']); ?>
