@@ -125,6 +125,7 @@ h6 {
 .footer {
   background-color:#333;
   color: #fff;
+  margin-top: 0;
 }
 
 .social-links {
@@ -197,6 +198,11 @@ h6 {
 .front .row-content {
   background-color: #f9f9fe;
   padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.row-icons {
+  padding: 30px 0 20px 0;
 }
 
 .home1, .home2, .home3 {
@@ -205,6 +211,7 @@ h6 {
 
 .home1 {
   background: url('../img/home-1.png') no-repeat top center;
+  margin-left: 0;
 }
 
 .home2 {
@@ -227,7 +234,6 @@ h6 {
 .row-hero {
   height: 412px;
   background: #e6e6e6 url('../img/hero-bg.png') no-repeat center center;
-  margin-bottom: 20px;
   border-top: 1px solid #c5c3ef;
 }
 
