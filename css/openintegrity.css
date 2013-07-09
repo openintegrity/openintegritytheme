@@ -198,7 +198,7 @@ h6 {
 .front .row-content {
   background-color: #f9f9fe;
   padding-top: 40px;
-  padding-bottom: 20px;
+  padding-bottom: 80px;
 }
 
 .row-icons {
@@ -225,6 +225,9 @@ h6 {
 .row-icons h2 {
   font-size: 12px;
   text-align: center;
+  font-weight: 400;
+  width: 60%;
+  margin: 0 auto;
 }
 
 
@@ -245,6 +248,15 @@ h6 {
 .hero-unit {
   border-radius: 0;
   background-color: transparent;
+}
+
+
+/* -- Blocks
+------------------------ */
+
+#sidebar-first h2.block-title {
+  color: #666666;
+  background-color: #D9D9DB;
 }
 
 
