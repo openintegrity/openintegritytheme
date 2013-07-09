@@ -282,10 +282,10 @@ function _bootstrap_content_span($columns = 1) {
       $class = 'span12';
       break;
     case 2:
-      $class = 'span9';
+      $class = 'span8';
       break;
     case 3:
-      $class = 'span6';
+      $class = 'span4';
       break;
   }
   

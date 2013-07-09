@@ -64,7 +64,7 @@
     <div class="container">
 
     <?php if (!empty($page['sidebar_first'])): ?>
-      <aside id="sidebar-first" class="span3" role="complementary">
+      <aside id="sidebar-first" class="span4" role="complementary">
         <?php print render($page['sidebar_first']); ?>
       </aside>  <!-- /#sidebar-first -->
     <?php endif; ?>  
@@ -91,7 +91,7 @@
     </section>
 
     <?php if (!empty($page['sidebar_second'])): ?>
-      <aside class="span3" role="complementary">
+      <aside class="span4" role="complementary">
         <?php print render($page['sidebar_second']); ?>
       </aside>  <!-- /#sidebar-second -->
     <?php endif; ?>
