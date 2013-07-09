@@ -53,8 +53,10 @@
   <?php endif; ?> 
 
   <?php if (!empty($page['icons'])): ?>
-    <div class="row row-icons container">
-      <?php print render($page['icons']); ?>
+    <div class="row row-icons">
+      <div class="container">
+        <?php print render($page['icons']); ?>
+      </div>
     </div>
   <?php endif; ?>
 

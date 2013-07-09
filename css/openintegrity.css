@@ -246,3 +246,22 @@ h6 {
   border-radius: 0;
   background-color: transparent;
 }
+
+
+/* -- Views
+------------------------ */
+
+.index-browse {
+  background-color: #f2f1fd;
+  margin-bottom: 4px;
+}
+
+.logo {
+  float: left;
+  margin: 0 15px;
+}
+
+.index-browse h4 {
+  line-height: 50px;
+  font-size: 20px;
+}
