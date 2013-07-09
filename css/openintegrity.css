@@ -265,3 +265,22 @@ h6 {
   line-height: 50px;
   font-size: 20px;
 }
+
+.index-activity {
+  border: 2px solid #f2f1fd;
+  margin-bottom: 4px;
+}
+
+.index-activity h4 {
+  background-color: #f2f1fd;
+  line-height: 50px;
+  font-size: 20px;
+}
+
+.claim {
+  background: url('../img/evidence-icon.png') no-repeat left center;
+}
+
+.evidence {
+  background: url('../img/claim-icon.png') no-repeat left center;
+}
