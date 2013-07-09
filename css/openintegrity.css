@@ -11,7 +11,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 { 
-  font-family: ‘Metrophobic’, Arial, serif; font-weight: 700;
+  font-family: 'Montserrat', Arial, serif; font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -262,25 +262,34 @@ h6 {
 }
 
 .index-browse h4 {
+  text-transform: none;
+  color: #4D4D4D;
   line-height: 50px;
   font-size: 20px;
+  margin-left: 65px;
 }
 
 .index-activity {
   border: 2px solid #f2f1fd;
   margin-bottom: 4px;
+  padding-bottom: 10px;
 }
 
 .index-activity h4 {
+  text-transform: none;
+  color: #4D4D4D;
   background-color: #f2f1fd;
   line-height: 50px;
   font-size: 20px;
+  margin: 0 0 10px 0;
 }
 
 .claim {
-  background: url('../img/evidence-icon.png') no-repeat left center;
+  background: url('../img/claim-icon.png') no-repeat left center;
+  padding: 2px 20px 4px 30px;
 }
 
 .evidence {
-  background: url('../img/claim-icon.png') no-repeat left center;
+  background: url('../img/evidence-icon.png') no-repeat left center;
+  padding: 2px 20px 4px 30px;
 }
