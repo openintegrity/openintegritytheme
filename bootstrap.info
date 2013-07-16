@@ -21,6 +21,8 @@ stylesheets[all][] = bootstrap/css/bootstrap-responsive.css
 stylesheets[all][] = css/overrides.css
 stylesheets[all][] = css/openintegrity.css
 
+scripts[] = bootstrap_select.js
+
 ;Exclude
 ;javascript
 ;exclude[js][] = 'modules/contextual/contextual.js'
