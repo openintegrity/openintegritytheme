@@ -55,6 +55,10 @@ h6 {
   margin-left: 0;
 }
 
+.row-content {
+  padding-bottom: 80px;
+}
+
 
 /* -- Navigation
 ------------------------ */
@@ -198,7 +202,6 @@ h6 {
 .front .row-content {
   background-color: #f9f9fe;
   padding-top: 40px;
-  padding-bottom: 80px;
 }
 
 .row-icons {
@@ -257,6 +260,7 @@ h6 {
 #sidebar-first h2.block-title {
   color: #666666;
   background-color: #D9D9DB;
+  font-weight: 400;
 }
 
 
@@ -308,4 +312,23 @@ h6 {
 .evidence {
   background: url('../img/evidence-icon.png') no-repeat 10px center;
   padding: 2px 20px 4px 30px;
+}
+
+
+/* -- Node forms
+------------------------ */
+
+.link-field-url {
+  padding: 0 0 0 30px;
+  background: url('../img/link-icon.png') no-repeat left center;
+}
+
+.node-form .form-wrapper {
+  margin: 20px 0;
+}
+
+.node-form .help-block {
+  background-color: #f9f9fe;
+  width: 600px;
+  padding: 20px;
 }
