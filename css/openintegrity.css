@@ -341,3 +341,17 @@ h6 {
 select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
   margin-bottom: 0;
 }
+
+.form-type-select .btn {
+  color: #fff;
+  background-color: #4138e8;
+}
+
+.form-type-select .btn:hover, .form-type-select .btn:active, .form-type-select .btn.active, .form-type-select .btn.disabled, .form-type-select .btn[disabled] {
+  color: #fff;
+  background-color: #4138e8;
+}
+
+.form-type-select .caret {
+  border-top: 4px solid #fff;
+}
