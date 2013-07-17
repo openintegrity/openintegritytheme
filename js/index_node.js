@@ -7,10 +7,10 @@ jQuery(document).ready(function () {
 //  });
 
 
-    jQuery('.view-entry .group-level-1 .view-grouping-content').hide();
+    jQuery('.group-level-1 .view-grouping-content').hide();
 
-    jQuery('.view-entry .group-level-1 .view-grouping-header').click(function() {
-        jQuery(this).next('.view-entry div:hidden').slideDown('fast').siblings('.view-entry div:visible').slideUp('fast');
+    jQuery('.group-level-1 .view-grouping-header').click(function() {
+        jQuery(this).next('div:hidden').slideDown('fast').siblings('div:visible').slideUp('fast');
     });
 
 
