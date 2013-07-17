@@ -7,12 +7,30 @@ jQuery(document).ready(function () {
 //  });
 
 
-    jQuery('.group-level-1 .view-grouping-content').hide();
+ //   jQuery('.group-level-1 .view-grouping-content').hide();
 
-    jQuery('.group-level-1 .view-grouping-header').click(function() {
-        jQuery(this).next('div:hidden').slideDown('fast').siblings('div:visible').slideUp('fast');
-    });
+ //   jQuery('.group-level-1 .view-grouping-header').click(function() {
+ //       jQuery(this).next('div:hidden').slideDown('fast').siblings('div:visible').slideUp('fast');
+ //   });
 
+
+(function($) {
+    
+  var allPanels = $('.group-level-1 .view-grouping-content').hide();
+    
+  $('.group-level-1 > .view-grouping-header').click(function() {
+      $this = $(this);
+      $target =  $this.parent().next();
+
+      if(!$target.hasClass('active')){
+         allPanels.removeClass('active').slideUp();
+         $target.addClass('active').slideDown();
+      }
+      
+    return false;
+  });
+
+})(jQuery);
 
 
 
