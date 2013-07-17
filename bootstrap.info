@@ -22,6 +22,7 @@ stylesheets[all][] = css/overrides.css
 stylesheets[all][] = css/openintegrity.css
 
 scripts[] = js/bootstrap_select.js
+scripts[] = js/index_node.js
 
 ;Exclude
 ;javascript
