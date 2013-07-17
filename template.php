@@ -321,12 +321,3 @@ function bootstrap_form_user_register_form_alter(&$form, &$form_state) {
       break;
   }
 }
-
-drupal_add_js('jQuery(document).ready(function () {
-	alert( "Works" );
-  	jQuery(".view-entry .group-level-1 .view-grouping-content").hide();
-    jQuery(".view-entry .group-level-1 .view-grouping-header h2 a").show();
-  jQuery(".view-entry .group-level-1 .view-grouping-header h2 a").click(function(){
-    jQuery(".view-entry .group-level-1 .view-grouping-content").slideToggle();
-  });
-});', 'inline');
