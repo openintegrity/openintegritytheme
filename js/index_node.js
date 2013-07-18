@@ -29,7 +29,7 @@ jQuery(document).ready(function () {
 
   var allPanels2 = $('.group-level-1 .views-row').hide();
     
-  $('.group-level-1 .view-grouping-content > h3').click(function() {
+  $('.group-level-1 .view-grouping-content h3').click(function() {
       $this2 = $(this);
       $target2 =  $this2.parent().next();
 
