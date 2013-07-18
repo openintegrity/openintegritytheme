@@ -30,6 +30,20 @@ jQuery(document).ready(function () {
     return false;
   });
 
+  var allPanels2 = $('.group-level-1 .views-row').hide();
+    
+  $('.group-level-1 .view-grouping-content > h3').click(function() {
+      $this = $(this);
+      $target =  $this.parent().next();
+
+      if(!$target.hasClass('active')){
+         allPanels2.removeClass('active').slideUp();
+         $target.addClass('active').slideDown();
+      }
+      
+    return false;
+  });
+
 })(jQuery);
 
 
