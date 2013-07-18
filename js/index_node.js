@@ -33,12 +33,12 @@ jQuery(document).ready(function () {
   var allPanels2 = $('.group-level-1 .views-row').hide();
     
   $('.group-level-1 .view-grouping-content > h3').click(function() {
-      $this = $(this);
-      $target =  $this.parent().next();
+      $this2 = $(this);
+      $target2 =  $this2.parent().next();
 
-      if(!$target.hasClass('active')){
+      if(!$target2.hasClass('active')){
          allPanels2.removeClass('active').slideUp();
-         $target.addClass('active').slideDown();
+         $target2.addClass('active').slideDown();
       }
       
     return false;
