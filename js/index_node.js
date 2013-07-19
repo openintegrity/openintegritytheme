@@ -19,7 +19,7 @@ jQuery(document).ready(function () {
     
   $('.group-level-1 .view-grouping-content > h3').click(function() {
       $this = $(this);
-      $target =  $this.parent().next();
+      $target =  $this.next();
 
       if(!$target.hasClass('active')){
          nestedPanels.removeClass('active').slideUp();
