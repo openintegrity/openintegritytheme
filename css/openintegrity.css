@@ -261,6 +261,10 @@ h6 {
   color: #666666;
   background-color: #D9D9DB;
   font-weight: 400;
+  font-family: 'Metrophobic', Arial, serif;
+  font-size: 14px;
+  line-height: 33px;
+  padding-left: 15px;
 }
 
 
@@ -275,6 +279,11 @@ h6 {
 .logo {
   float: left;
   margin: 0 15px;
+}
+
+.index-browse .node-entry {
+  float: right;
+  margin: 6px;
 }
 
 .index-browse h4 {
@@ -305,12 +314,12 @@ h6 {
 }
 
 .claim {
-  background: url('../img/claim-icon.png') no-repeat 10px center;
+  background: url('../img/claim-icon.png') no-repeat 8px center;
   padding: 2px 20px 4px 30px;
 }
 
 .evidence {
-  background: url('../img/evidence-icon.png') no-repeat 10px center;
+  background: url('../img/evidence-icon.png') no-repeat 6px center;
   padding: 2px 20px 4px 30px;
 }
 
