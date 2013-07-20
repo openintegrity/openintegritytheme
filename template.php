@@ -321,3 +321,9 @@ function bootstrap_form_user_register_form_alter(&$form, &$form_state) {
       break;
   }
 }
+
+function bootstrap_preprocess_page(&$vars) {
+  if (isset($vars['node']->type)) { 
+    $vars['theme_hook_suggestions'][] = 'page__' . $vars['node']->type; 
+  }
+}
