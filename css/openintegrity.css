@@ -274,6 +274,7 @@ h6 {
 .index-browse {
   background-color: #f2f1fd;
   margin-bottom: 4px;
+  overflow: hidden;
 }
 
 .logo {
@@ -298,6 +299,12 @@ h6 {
   border: 2px solid #f2f1fd;
   margin-bottom: 4px;
   padding-bottom: 10px;
+}
+
+.index-activity .oii-badge {
+  float: right;
+  margin: -54px 4px 0 0;
+  list-style: none;
 }
 
 .index-activity h4 {
