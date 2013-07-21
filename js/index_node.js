@@ -3,7 +3,7 @@ jQuery(document).ready(function () {
 (function($) {
     
   var allPanels = $('.group-level-1 .view-grouping-content').hide();
-  var nestedPanels = $('.group-level-1 .view-grouping-content .views-row').hide();
+  var nestedPanels = $('.group-level-1 .view-grouping-content > .views-row').hide();
     
   $('.group-level-1 .view-grouping-header > h2').click(function() {
       $this = $(this);
