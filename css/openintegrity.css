@@ -330,6 +330,14 @@ h6 {
   padding: 2px 20px 4px 30px;
 }
 
+.views-exposed-form label.compact-form-label {
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 14px;
+  top: 12px;
+  left: 10px;
+}
+
 
 /* -- Node forms
 ------------------------ */

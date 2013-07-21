@@ -163,6 +163,10 @@ function bootstrap_preprocess_page(&$variables) {
     $variables['secondary_nav']['#theme_wrappers'] = array('menu_tree__secondary');
   }
 
+  if (isset($variables['node']->type)) { 
+    $variables['theme_hook_suggestions'][] = 'page__' . $variables['node']->type; 
+  }
+
 }
 
 /**
