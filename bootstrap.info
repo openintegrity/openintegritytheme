@@ -21,6 +21,7 @@ stylesheets[all][] = bootstrap/css/bootstrap-responsive.css
 stylesheets[all][] = css/overrides.css
 stylesheets[all][] = css/openintegrity.css
 
+scripts[] = bootstrap/js/bootstrap.js
 scripts[] = js/bootstrap_select.js
 scripts[] = js/index_node.js
 
