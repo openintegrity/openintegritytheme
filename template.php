@@ -314,10 +314,22 @@ function bootstrap_form_user_register_form_alter(&$form, &$form_state) {
 //   var_dump($form['profile_developer']['field_tool']['und']['actions']);
    switch ($form['#action']) {
      case '/developer/register':
+//      echo dprint_r($form['profile_developer']['field_tool']['und']['form'],true);
       $form['profile_developer']['field_tool']['und']['actions']['ief_add']['#value'] = t('Submit a new Tool');
       $form['profile_developer']['field_tool']['und']['actions']['ief_add_existing']['#value'] = t('Search for a Tool');
+      $form['profile_developer']['field_tool']['und']['form']['entity_id']['#title'] = t('Tool name');
+      $form['profile_developer']['field_tool']['und']['form']['actions']['ief_reference_save']['#value'] = t('Select Tool');
       $form['profile_developer']['field_tool']['und']['form']['#title'] = t('Add your Tool');
       $form['profile_developer']['field_tool']['und']['form']['actions']['ief_add_save']['#value'] = t('Save your Tool');
       break;
+  }
+}
+
+/**
+ * Implements hook_form_FORM_ID_alter();
+ */
+function bootstrap_form_post_node_form_alter(&$form, &$form_state, $form_id) {
+  if (!isset($form_state['node']->nid)) {
+    $form['revision_information']['#access'] = FALSE;
   }
 }
