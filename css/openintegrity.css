@@ -279,20 +279,21 @@ h6 {
 
 .logo {
   float: left;
-  margin: 0 15px;
+  margin: 12px;
 }
 
 .index-browse .node-entry {
   float: right;
-  margin: 6px;
+  margin: 9px;
+  height: 34px;
 }
 
 .index-browse h4 {
   text-transform: none;
   color: #4D4D4D;
-  line-height: 50px;
+  line-height: 52px;
   font-size: 20px;
-  margin-left: 65px;
+  margin: 0 0 0 65px;
 }
 
 .index-activity {
@@ -326,7 +327,7 @@ h6 {
 }
 
 .evidence {
-  background: url('../img/evidence-icon.png') no-repeat 6px center;
+  background: url('../img/evidence-icon.png') no-repeat 6px 8px;
   padding: 2px 20px 4px 30px;
 }
 
