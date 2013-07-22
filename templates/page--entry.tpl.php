@@ -61,9 +61,9 @@
   <?php endif; ?>
 
   <div class="row row-content">
-    <div class="">
+    <div class="container-fluid">
 
-    <section class="">  
+    <section class="index-node">  
       <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
       <a id="main-content"></a>
       <?php print render($title_prefix); ?>
