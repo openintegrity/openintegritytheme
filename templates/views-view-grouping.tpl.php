@@ -18,7 +18,7 @@
  */
 ?>
 <div class="view-grouping group-level-<?php print $grouping_level; ?>">
-  <div class="view-grouping-header"><h<?php print $grouping_level + 1; ?>><?php print $title; ?></div>
+  <div class="view-grouping-header"><h<?php print $grouping_level + 1; ?> class="<?php if($grouping_level = 1){print t('container');}; ?>"><?php print $title; ?></h<?php print $grouping_level + 1; ?>></div>
   <div class="view-grouping-content">
     <?php print $content; ?>
   </div>
