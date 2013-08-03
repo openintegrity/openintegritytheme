@@ -445,6 +445,11 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
   overflow: hidden;
 }
 
+.view-entry .group-level-1 .view-filters .bef-select-as-links .controls .controls {
+  width: auto;
+}
+
+
 .view-entry .group-level-1 .view-filters .bef-select-as-links #edit-sort-bef-combine-created-asc {
   float: left;
   margin: 0 10px 0 0;
