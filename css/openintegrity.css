@@ -421,6 +421,41 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
   cursor: pointer;
 }
 
+.view-entry .group-level-1 .view-header h4 {
+  float: left;
+  font-weight: normal;
+  font-size: .8em;
+}
+
+.view-entry .group-level-1 .view-filters {
+  float: right;
+  width: 304px;
+}
+
+.view-entry .group-level-1 .view-filters label {
+  float: left;
+  margin: 0 10px 0 0;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: .8em;
+}
+
+.view-entry .group-level-1 .view-filters .bef-select-as-links .controls {
+  width: 200px;
+  overflow: hidden;
+}
+
+.view-entry .group-level-1 .view-filters .bef-select-as-links #edit-sort-bef-combine-created-asc {
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+.view-entry .group-level-1 .view-content {
+  clear: both; 
+  border-top: 1px solid #f4f3f9; 
+  padding-top: 10px; 
+}
+
 .node-type-entry .container-fluid {
   padding: 0;
 }
