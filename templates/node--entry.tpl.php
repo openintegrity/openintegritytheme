@@ -41,8 +41,8 @@
 	  </div>
       <div class="entry-title">
         <?php print render($content['field_logo']); ?>
+        <h2<?php print $title_attributes; ?>><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h2>
 	  </div>
-      <h2<?php print $title_attributes; ?>><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h2>
     </div>
   </div>
 
