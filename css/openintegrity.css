@@ -427,6 +427,10 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
   font-size: .8em;
 }
 
+.span-block {
+  display: block;
+}
+
 .view-entry .group-level-1 .view-filters {
   float: right;
   width: 304px;
@@ -448,7 +452,6 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 .view-entry .group-level-1 .view-filters .bef-select-as-links .controls .controls {
   width: auto;
 }
-
 
 .view-entry .group-level-1 .view-filters .bef-select-as-links #edit-sort-bef-combine-created-asc {
   float: left;
