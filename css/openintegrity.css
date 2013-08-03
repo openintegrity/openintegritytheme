@@ -39,6 +39,14 @@ h6 {
   font-size: 12px;
 }
 
+a {
+  color: #4d55a5;
+}
+
+a:hover {
+  color: #4d55a5;
+}
+
 
 /* -- Header
 ------------------------ */
@@ -113,13 +121,13 @@ h6 {
 
 #nav li a:hover,
 #nav li a.active {
-	background: #4138e8;
+	background: #4d55a5;
 	color: #fff;
 	-webkit-border-radius: 7px;
 	border-radius: 7px;
-	-webkit-box-shadow: 1px 1px 0 rgba(40,37,144,0.75);
-	-moz-box-shadow: 1px 1px 0 rgba(40,37,144,0.75);
-	box-shadow: 1px 1px 0 rgba(40,37,144,0.75);
+	-webkit-box-shadow: none; /*1px 1px 0 rgba(40,37,144,0.75);*/
+	-moz-box-shadow: none;
+	box-shadow: none;
 }
 
 
@@ -436,11 +444,11 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 
 .entry-info {
   width: 300px;
-  float: right;
+  float: left;
 }
 
 .entry-info .field {
   float: left;
   width: 140px;
-  margin-bottom: 20px;
+  margin: 0 10px 20px 0;
 }
