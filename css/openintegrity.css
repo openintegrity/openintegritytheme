@@ -425,9 +425,22 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
   border-top: 2px solid #c8c3e1;
   padding: 30px 0;
   border-bottom: 2px solid #c8c3e1;
+  overflow: hidden;
 }
 
 .entry-meta {
   width: 500px;
   float: right;
+  overflow: hidden;
+}
+
+.entry-info {
+  width: 300px;
+  float: right;
+}
+
+.entry-info .field {
+  float: left;
+  width: 140px;
+  margin-bottom: 20px;
 }
