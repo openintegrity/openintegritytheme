@@ -444,6 +444,10 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
   font-size: .8em;
 }
 
+.view-entry .views-exposed-form .views-exposed-widget {
+  float: none;
+}
+
 .view-entry .group-level-1 .view-filters .bef-select-as-links .controls {
   width: 200px;
   overflow: hidden;
