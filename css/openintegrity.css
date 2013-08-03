@@ -420,3 +420,14 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 .index-node {
   margin-left: 30px;
 }
+
+.row-entry {
+  border-top: 2px solid #c8c3e1;
+  padding: 30px 0;
+  border-bottom: 2px solid #c8c3e1;
+}
+
+.entry-meta {
+  width: 500px;
+  float: right;
+}

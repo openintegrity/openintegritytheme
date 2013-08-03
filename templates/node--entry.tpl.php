@@ -25,19 +25,23 @@
     hide($content['field_entry_developer']);
     hide($content['field_entry_category']);
     hide($content['field_entry_version']);
+    hide($content['field_entry_score']);
   ?>
 
-  <div class="container entry-content">
-    <div class="entry-title">
-      <?php print render($content['field_logo']); ?>
-	</div>
-    <h2<?php print $title_attributes; ?>><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h2>
-    <div class="entry-meta">
-      <?php print render($content['field_entry_type']); ?>
-      <?php print render($content['field_entry_developer']); ?>
-      <?php print render($content['field_entry_category']); ?>
-      <?php print render($content['field_entry_version']); ?>
-	</div>
+  <div class="row row-entry">
+    <div class="container entry-content">
+      <div class="entry-title">
+        <?php print render($content['field_logo']); ?>
+	  </div>
+      <h2<?php print $title_attributes; ?>><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h2>
+      <div class="entry-meta">
+        <?php print render($content['field_entry_type']); ?>
+        <?php print render($content['field_entry_developer']); ?>
+        <?php print render($content['field_entry_category']); ?>
+        <?php print render($content['field_entry_version']); ?>
+        <?php print render($content['field_entry_score']); ?>
+	  </div>
+    </div>
   </div>
 
   <?php print render($content); ?>
