@@ -401,7 +401,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 }
 
 .view-entry .group-level-1 .view-grouping-header h2 {
-  cursor: pointer;
+
 }
 
 .view-entry .group-level-1 .view-grouping-header h2 a {
@@ -418,6 +418,9 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
   text-transform: none;
   border-bottom: 1px solid #f4f3fe;
   padding: 10px 20px 10px 40px;
+}
+
+.view-entry .group-level-1 .index-trigger {
   cursor: pointer;
 }
 

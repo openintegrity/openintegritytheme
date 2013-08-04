@@ -18,7 +18,7 @@
  */
 ?>
 <div class="view-grouping group-level-<?php print $grouping_level; ?>">
-  <div class="view-grouping-header"><h<?php print $grouping_level + 1; ?> class="<?php if($grouping_level = 1 || $grouping_level = 2){print t('container');}; ?>"><?php if($grouping_level = 2 || $grouping_level = 3 || $grouping_level = 4){print '<span class="container span-block">';}; ?><?php print $title; ?><?php if($grouping_level = 2 || $grouping_level = 3 || $grouping_level = 4){print '</span>';}; ?></h<?php print $grouping_level + 1; ?>></div>
+  <div class="view-grouping-header"><h<?php print $grouping_level + 1; ?> class="<?php if($grouping_level = 1 || $grouping_level = 2){print t('container');}; ?>"><?php if($grouping_level = 2 || $grouping_level = 3 || $grouping_level = 4){print '<span class="container span-block">';}; ?><?php print $title; ?><?php if($grouping_level = 2 || $grouping_level = 3 || $grouping_level = 4){print '</span>';}; ?><?php if($grouping_level = 2 || $grouping_level = 3){print '<span class="index-trigger">+<span>';}; ?></h<?php print $grouping_level + 1; ?>></div>
   <div class="view-grouping-content">
     <?php print $content; ?>
   </div>
