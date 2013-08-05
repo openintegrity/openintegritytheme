@@ -424,6 +424,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 
 .view-entry .group-level-1 .index-trigger {
   cursor: pointer;
+  float: right;
 }
 
 .view-entry .group-level-1 .view-header h4 {
