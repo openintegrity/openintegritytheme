@@ -519,3 +519,33 @@ h1 .index-trigger {
   padding: 15px 0 0 0;
   font-size: 25px;
 }
+
+.row-icons-bottom {
+  padding: 30px 0 20px 0;
+  background-color: #f8f8fc;
+}
+
+.entry1, .entry2, .entry13 {
+  padding-top: 100px;
+}
+
+.entry1 {
+  background: url('../img/entry-1.png') no-repeat top center;
+  margin-left: 0;
+}
+
+.entry2 {
+  background: url('../img/entry-2.png') no-repeat top center;
+}
+
+.entry3 {
+  background: url('../img/entry-3.png') no-repeat top center;
+}
+
+.row-icons-bottom h2 {
+  font-size: 12px;
+  text-align: center;
+  font-weight: 400;
+  width: 60%;
+  margin: 0 auto;
+}

@@ -94,6 +94,13 @@
     </div>
   </div>
 
+  <?php if (!empty($page['icons_bottom'])): ?>
+    <div class="row row-icons-bottom">
+      <div class="container">
+        <?php print render($page['icons_bottom']); ?>
+      </div>
+    </div>
+  <?php endif; ?>
 
 <footer class="footer">
   <div class="container">
