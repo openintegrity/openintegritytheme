@@ -9,6 +9,7 @@ regions[icons]          = 'Icons'
 regions[content]        = 'Content'
 regions[sidebar_first]  = 'Primary'
 regions[sidebar_second] = 'Secondary'
+regions[icons_bottom]   = 'Icons Bottom'
 regions[footer]         = 'Footer'
 
 settings[toggle_name] = 0
