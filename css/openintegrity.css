@@ -427,6 +427,10 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
   float: right;
 }
 
+h1 .index-trigger {
+  display: none;
+}
+
 .view-entry .group-level-1 .view-header h4 {
   float: left;
   font-weight: normal;
