@@ -473,9 +473,14 @@ h1 .index-trigger {
 }
 
 .view-entry .group-level-1 .view-content {
-  clear: both; 
-  border-top: 1px solid #f4f3f9; 
-  padding-top: 10px; 
+  clear: both;
+  border-top: 1px solid #f4f3f9;
+  padding-top: 10px;
+}
+
+.view-entry .group-level-1 .view-grouping-content {
+  border-top: 1px solid #dfdbee;
+  border-bottom: 1px solid #dfdbee;
 }
 
 .node-type-entry .container-fluid {

@@ -337,3 +337,17 @@ function bootstrap_form_post_node_form_alter(&$form, &$form_state, $form_id) {
     $form['revision_information']['#access'] = FALSE;
   }
 }
+
+/**
+ * 
+ */
+function bootstrap_preprocess_node(&$vars) {
+  if($vars['view_mode'] == 'teaser') {
+    $vars['theme_hook_suggestions'][] = 'node__' . $vars['node']->type . '__teaser';   
+    $vars['theme_hook_suggestions'][] = 'node__' . $vars['node']->nid . '__teaser';
+  }
+  if($vars['view_mode'] == 'static_badge') {
+    $vars['theme_hook_suggestions'][] = 'node__' . $vars['node']->type . '__badge';   
+    $vars['theme_hook_suggestions'][] = 'node__' . $vars['node']->nid . '__badge';
+  }
+}
