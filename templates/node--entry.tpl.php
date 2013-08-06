@@ -1,3 +1,14 @@
+<?php if ($teaser): ?>
+	<article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
+	  <?php
+	    // Hide comments, tags, and links now so that we can render them later.
+	    hide($content['comments']);
+	    hide($content['links']);
+	  ?>
+
+	  <?php print render($content); ?>
+	</article> <!-- /.node -->	
+<?php else: ?>
 <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
 
