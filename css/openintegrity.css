@@ -424,7 +424,8 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
   font-size: 18px;
   text-transform: none;
   border-bottom: 1px solid #f4f3fe;
-  padding: 10px 20px 10px 40px;
+  padding: 0;
+  margin: 0;
   overflow: hidden;
 }
 
@@ -500,6 +501,13 @@ h1 .index-trigger {
 .span-block {
   display: block;
   margin-left: 0;
+}
+
+h3.nested-title .span-block {
+  float: none;
+  clear: none;
+  margin: 0 auto;
+  padding: 10px 0;
 }
 
 .view-entry .group-level-1 .view-filters {
