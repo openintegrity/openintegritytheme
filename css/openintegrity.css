@@ -459,6 +459,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
   padding: 30px 22px;
   border-left: #f1eff7 solid 1px;
   border-right: #f1eff7 solid 1px;
+  margin-right: 30px;
 }
 .view-entry .group-level-0 .accordion-header-title h2 {
   margin-top: 36px;
@@ -489,6 +490,7 @@ h1 .index-trigger {
 
 .span-block {
   display: block;
+  margin-left: 0;
 }
 
 .view-entry .group-level-1 .view-filters {
