@@ -396,6 +396,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 
 .view-entry .group-level-1 .view-grouping-header {
   /*padding: 10px 20px;*/
+  font-family: 'Metrophobic', Arial, serif;
 }
 
 .view-entry .group-level-1:nth-child(2n+1) .view-grouping-header {
@@ -405,6 +406,9 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 .view-entry .group-level-1 .view-grouping-header h2 {
   margin-bottom: 0;
   margin-top: 0;
+  font-family: 'Metrophobic', Arial, serif;
+  text-transform: none;
+  font-size: 18px;
 }
 
 .view-entry .group-level-1 .view-grouping-header h2 a {
@@ -436,6 +440,10 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
   text-indent: -9999px;
 }
 
+.view-entry .group-level-1 .nested-title .index-trigger {
+  margin-top: 10px;
+}
+
 .view-entry .group-level-1 .claim-score {
   float: right;
 }
@@ -463,19 +471,20 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 }
 .view-entry .group-level-0 .accordion-header-title h2 {
   margin-top: 36px;
+  color: #4d55a5;
 }
 
 .view-entry .group-level-1 .subcriteria-info {
   display:block;
   font-size: 11px;
   font-weight: normal;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: none;
 }
 
 .view-entry .group-level-1 .accordion-title {
   padding-top: 20px;
   display: block;
+  font-family: 'Metrophobic', Arial, serif;
 }
 
 h1 .index-trigger {
