@@ -425,9 +425,15 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 }
 
 .view-entry .group-level-1 .index-trigger {
+  background: url('../img/caret-up.png') no-repeat top center;
   cursor: pointer;
   float: right;
-  margin-left: 20px;
+  margin-left: 22px;
+  width: 8px;
+  height: 6px;
+  display: block;
+  margin-top: 40px;
+  text-indent: -9999px;
 }
 
 .view-entry .group-level-1 .claim-score {
@@ -437,7 +443,6 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 .view-entry .group-level-1 .claim-status {
   float: right;
 }
-
 .view-entry .group-level-1 .subcriteria-score {
   float: right;
   background-color: #f3f2f9;
@@ -445,7 +450,9 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
   border-left: #f1eff7 solid 1px;
   border-right: #f1eff7 solid 1px;
 }
-
+.view-entry .group-level-1:nth-child(2n+1) .subcriteria-score {
+  background-color: #f8f8fc;
+}
 .view-entry .group-level-0 .criteria-score {
   float:right;
   background-color: #f8f8fc;
