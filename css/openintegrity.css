@@ -429,6 +429,20 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
   overflow: hidden;
 }
 
+.view-entry .group-level-1 .view-grouping-content h3.disputed {
+  color: #f6917d;
+  background: url('../img/disputed.png') no-repeat center left;
+}
+
+.view-entry .group-level-1 .view-grouping-content h3.unsubstantiated {
+  color: #949494;
+  background: url('../img/unsubstantiated.png') no-repeat center left;
+}
+
+.view-entry .group-level-1 .nested-title{
+  margin-left: 28px;
+}
+
 .view-entry .group-level-1 .index-trigger {
   background: url('../img/caret-up.png') no-repeat top center;
   cursor: pointer;
@@ -442,11 +456,15 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 }
 
 .view-entry .group-level-1 .nested-title .index-trigger {
-  margin-top: 10px;
+  margin: 10px 10px 0 20px;
 }
 
 .view-entry .group-level-1 .claim-score {
   float: right;
+  width: 78px;
+  display: block;
+  text-align: center;
+  font-size: 10px;
 }
 
 .view-entry .group-level-1 .claim-status {
