@@ -395,7 +395,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 ------------------------ */
 
 .view-entry .group-level-1 .view-grouping-header {
-  padding: 10px 20px;
+  /*padding: 10px 20px;*/
 }
 
 .view-entry .group-level-1:nth-child(2n+1) .view-grouping-header {
@@ -403,7 +403,8 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 }
 
 .view-entry .group-level-1 .view-grouping-header h2 {
-  overflow: hidden;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .view-entry .group-level-1 .view-grouping-header h2 a {
