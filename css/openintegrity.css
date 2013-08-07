@@ -421,7 +421,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 .view-entry .group-level-1 .view-grouping-content h3 {
   font-family: 'Metrophobic', Arial, serif;
   color: #000;
-  font-size: 18px;
+  font-size: 16px;
   text-transform: none;
   border-bottom: 1px solid #f4f3fe;
   padding: 0;
