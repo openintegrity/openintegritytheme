@@ -441,6 +441,17 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
   float: right;
 }
 
+.view-entry .group-level-0 .criteria-score {
+  float:right;
+  background-color: #f8f8fc;
+  padding: 30px 22px;
+  border-left: #f1eff7 solid 1px;
+  border-right: #f1eff7 solid 1px;
+}
+.view-entry .group-level-0 .accordion-header-title h2 {
+  margin-top: 36px;
+}
+
 .view-entry .group-level-1 .subcriteria-info {
   clear: both;
   display:block;
