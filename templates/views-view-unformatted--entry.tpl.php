@@ -8,9 +8,7 @@
  */
 ?>
 <?php if (!empty($title)): ?>
-  <span class="container">
-    <h3><?php print $title; ?></h3>
-  </span>
+    <h3><span class="container"><?php print $title; ?></span></h3>
 <?php endif; ?>
 <?php foreach ($rows as $id => $row): ?>
   <div <?php if ($classes_array[$id]) { print 'class="' . $classes_array[$id] .'"';  } ?>>
