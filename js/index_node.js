@@ -5,7 +5,7 @@ jQuery(document).ready(function () {
   var allPanels = $('.group-level-1 .view-grouping-content').hide();
   var nestedPanels = $('.group-level-1 .view-grouping-content > .views-row').hide();
     
-  $('.group-level-1 .view-grouping-header > .accordion-title').click(function() {
+  $('.group-level-1 .view-grouping-header > h2').click(function() {
       $this = $(this);
       $target =  $this.parent().next();
 
@@ -17,7 +17,7 @@ jQuery(document).ready(function () {
     return false;
   });
     
-  $('.group-level-1 .view-grouping-content > .nested-title').click(function() {
+  $('.group-level-1 .view-grouping-content > h3').click(function() {
       $this = $(this);
       $target =  $this.next();
 
