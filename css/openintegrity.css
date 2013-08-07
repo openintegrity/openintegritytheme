@@ -429,12 +429,12 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
   overflow: hidden;
 }
 
-.view-entry .group-level-1 .view-grouping-content h3.disputed {
+.view-entry .group-level-1 .view-grouping-content h3.disputed .container {
   color: #f6917d;
   background: url('../img/disputed.png') no-repeat center left;
 }
 
-.view-entry .group-level-1 .view-grouping-content h3.unsubstantiated {
+.view-entry .group-level-1 .view-grouping-content h3.unsubstantiated .container {
   color: #949494;
   background: url('../img/unsubstantiated.png') no-repeat center left;
 }
@@ -456,7 +456,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 }
 
 .view-entry .group-level-1 .nested-title .index-trigger {
-  margin: 10px 10px 0 20px;
+  margin: 10px 0 0 20px;
 }
 
 .view-entry .group-level-1 .claim-score {
@@ -469,6 +469,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 
 .view-entry .group-level-1 .claim-status {
   float: right;
+  font-size: 10px;
 }
 .view-entry .group-level-1 .subcriteria-score {
   float: right;
