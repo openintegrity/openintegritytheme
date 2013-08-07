@@ -445,13 +445,13 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 }
 .view-entry .group-level-1 .subcriteria-score {
   float: right;
-  background-color: #f3f2f9;
+  background-color: #f8f8fc;
   padding: 30px 30px;
   border-left: #f1eff7 solid 1px;
   border-right: #f1eff7 solid 1px;
 }
 .view-entry .group-level-1:nth-child(2n+1) .subcriteria-score {
-  background-color: #f8f8fc;
+  background-color: #f3f2f9;
 }
 .view-entry .group-level-0 .criteria-score {
   float:right;
