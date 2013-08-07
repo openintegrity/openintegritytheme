@@ -403,7 +403,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 }
 
 .view-entry .group-level-1 .view-grouping-header h2 {
-
+  overflow: hidden;
 }
 
 .view-entry .group-level-1 .view-grouping-header h2 a {
@@ -420,11 +420,34 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
   text-transform: none;
   border-bottom: 1px solid #f4f3fe;
   padding: 10px 20px 10px 40px;
+  overflow: hidden;
 }
 
 .view-entry .group-level-1 .index-trigger {
   cursor: pointer;
   float: right;
+  margin-left: 50px;
+}
+
+.view-entry .group-level-1 .claim-score {
+  float: right;
+}
+
+.view-entry .group-level-1 .claim-status {
+  float: right;
+}
+
+.view-entry .group-level-1 .subcriteria-score {
+  float: right;
+}
+
+.view-entry .group-level-1 .subcriteria-info {
+  clear: both;
+  display:block;
+  font-size: 11px;
+  font-weight: normal;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: none;
 }
 
 h1 .index-trigger {
