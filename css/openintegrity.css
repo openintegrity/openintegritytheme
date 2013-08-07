@@ -378,12 +378,16 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 
 .form-type-select .btn {
   color: #fff;
-  background-color: #4138e8;
+  background-color: #4d55a5;
 }
 
 .form-type-select .btn:hover, .form-type-select .btn:active, .form-type-select .btn.active, .form-type-select .btn.disabled, .form-type-select .btn[disabled] {
   color: #fff;
-  background-color: #4138e8;
+  background-color: #4d55a5;
+}
+
+.form-type-select .btn-group.open .btn.dropdown-toggle {
+  background-color: #4d55a5;
 }
 
 .form-type-select .caret {
