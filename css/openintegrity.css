@@ -426,7 +426,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 .view-entry .group-level-1 .index-trigger {
   cursor: pointer;
   float: right;
-  margin-left: 50px;
+  margin-left: 20px;
 }
 
 .view-entry .group-level-1 .claim-score {
@@ -439,6 +439,10 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 
 .view-entry .group-level-1 .subcriteria-score {
   float: right;
+  background-color: #f3f2f9;
+  padding: 30px 30px;
+  border-left: #f1eff7 solid 1px;
+  border-right: #f1eff7 solid 1px;
 }
 
 .view-entry .group-level-0 .criteria-score {
@@ -453,12 +457,16 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 }
 
 .view-entry .group-level-1 .subcriteria-info {
-  clear: both;
   display:block;
   font-size: 11px;
   font-weight: normal;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: none;
+}
+
+.view-entry .group-level-1 .accordion-title {
+  padding-top: 20px;
+  display: block;
 }
 
 h1 .index-trigger {
