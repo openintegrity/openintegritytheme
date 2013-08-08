@@ -1,6 +1,6 @@
 <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
-  <h2<?php print $title_attributes; ?>><a href="<?php print $node_url; ?>"><?php print $title; ?> </a><span class="link"><?php print render($field_evidence_link[0]['url']); ?></span></h2>
+  <h2<?php print $title_attributes; ?>><?php print $title; ?> <span class="link">[ <a href="<?php print render($field_evidence_link[0]['url']); ?>"><?php print render($field_evidence_link[0]['url']); ?></a> ]</span></h2>
 
     <?php if ($display_submitted): ?>
       <span class="submitted">
@@ -14,6 +14,7 @@
     hide($content['comments']);
     hide($content['links']);
     hide($content['field_tags']);
+    hide($content['field_evidence_link']);
     print render($content);
   ?>
 
