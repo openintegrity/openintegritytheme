@@ -535,7 +535,7 @@ h3.nested-title .span-block {
 
 .view-entry .group-level-1 .view-filters {
   float: right;
-  width: 304px;
+  width: 230px;
 }
 
 .view-entry .group-level-1 .view-filters label {
@@ -551,7 +551,7 @@ h3.nested-title .span-block {
 }
 
 .view-entry .group-level-1 .view-filters .bef-select-as-links .controls {
-  width: 200px;
+  width: 160px;
   overflow: hidden;
 }
 
@@ -662,9 +662,13 @@ h3.nested-title .span-block {
 .node-evidence-form .group-evidence-information {
   border: 1px solid #e9e6f3;
   padding: 0 30px 30px;
-  margin: 30px;
+  margin: 30px 0;
 }
 
 .node-evidence-form .group-evidence-information legend {
   display: none;
+}
+
+.view-entry .view-entry-evidence {
+  margin: 20px 0 0 28px;
 }
