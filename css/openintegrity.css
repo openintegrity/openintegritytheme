@@ -669,6 +669,12 @@ h3.nested-title .span-block {
   display: none;
 }
 
+.node-evidence-form .form-actions {
+  background: #fff;
+  border: 0;
+  padding: 0;
+}
+
 .view-entry .view-entry-evidence {
   margin: 20px 0 0 28px;
 }
@@ -686,4 +692,14 @@ h3.nested-title .span-block {
 
 .view-entry-evidence .node-teaser .link a {
   background: url('../img/link-teaser.png') no-repeat center left;
+  padding-left: 13px;
+}
+.view-entry-evidence .node-teaser {
+  border-bottom: 1px solid #f4f3f9;
+  padding-bottom: 15px;
+  margin-bottom: 5px;
+}
+
+.submitted-by {
+  font-size: 11px;
 }
