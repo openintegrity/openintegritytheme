@@ -195,7 +195,7 @@ a:hover {
 }
 
 .btn-primary {
-  background: #4138e8;
+  background: #4d55a5;
   color: #fff;
   border-color: transparent;
   -webkit-box-shadow: 1px 1px 0 rgba(40,37,144,0.75);
@@ -645,4 +645,26 @@ h3.nested-title .span-block {
   font-weight: 400;
   width: 60%;
   margin: 0 auto;
+}
+
+.Supporting {
+  color: #17C9C9;	
+}
+
+.Contradicting {
+  color: #F3715F;	
+}
+
+.view-entry-evidence .view-empty {
+  clear: both;
+}
+
+.node-evidence-form .group-evidence-information {
+  border: 1px solid #e9e6f3;
+  padding: 0 30px 30px;
+  margin: 30px;
+}
+
+.node-evidence-form .group-evidence-information legend {
+  display: none;
 }
