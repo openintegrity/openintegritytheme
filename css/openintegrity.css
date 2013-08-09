@@ -47,6 +47,9 @@ a:hover {
   color: #4d55a5;
 }
 
+p {
+  line-height: 1.8em;
+}
 
 /* -- Header
 ------------------------ */
@@ -168,6 +171,7 @@ a:hover {
 .social-block h2 {
   font-size: 12px;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 .social-block {
@@ -280,7 +284,7 @@ a:hover {
 ------------------------ */
 
 .index-browse {
-  background-color: #f2f1fd;
+  background-color: #f2f1f8;
   margin-bottom: 4px;
   overflow: hidden;
 }
@@ -320,7 +324,7 @@ a:hover {
   text-transform: none;
   background-color: #f2f1fd;
   line-height: 50px;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: normal;
   margin: 0 0 10px 0;
 }
@@ -365,6 +369,11 @@ a:hover {
 .description {
   background-color: #f9f9fe;
   width: 600px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.node-evidence-form .help-block {
   padding: 6px 20px;
   margin-left: 22px;
   display: inline;
