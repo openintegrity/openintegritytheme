@@ -365,8 +365,9 @@ a:hover {
 .description {
   background-color: #f9f9fe;
   width: 600px;
-  padding: 20px;
-  margin: 20px 0;
+  padding: 6px 20px;
+  margin-left: 22px;
+  display: inline;
 }
 
 .control-group {
