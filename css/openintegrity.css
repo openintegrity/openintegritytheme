@@ -300,7 +300,7 @@ a:hover {
   text-transform: none;
   color: #4D4D4D;
   line-height: 52px;
-  font-size: 20px;
+  font-size: 17px;
   margin: 0 0 0 65px;
 }
 
@@ -320,7 +320,8 @@ a:hover {
   text-transform: none;
   background-color: #f2f1fd;
   line-height: 50px;
-  font-size: 20px;
+  font-size: 12px;
+  font-weight: normal;
   margin: 0 0 10px 0;
 }
 
