@@ -53,7 +53,9 @@
 
   <?php if ($rows): ?>
     <div id="viewport">
-      <?php print $rows; ?>
+	  <ul>
+        <?php print $rows; ?>
+      <ul>
     </div>
 	<a id="simplePrevious">&#60;</a>
 	<a id="simpleNext">&#62;</a>
