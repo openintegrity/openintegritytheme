@@ -766,7 +766,6 @@ h3.nested-title .span-block {
 	list-style: none; /* Resets default - User Agent - style */
 }
 
-/* Cosmetic */
 #simplePrevious, #simpleNext{
 	cursor: pointer;
 	font-size: 2em;

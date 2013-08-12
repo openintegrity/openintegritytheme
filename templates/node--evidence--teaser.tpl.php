@@ -1,4 +1,4 @@
-<article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
+<article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix <?php foreach ($current_user_roles as $role) { ?><?php print $role; ?> <?php } ?>"<?php print $attributes; ?>>
 
   <h2<?php print $title_attributes; ?>><?php print $title; ?> <span class="link">[ <a href="<?php print render($field_evidence_link[0]['url']); ?>"><?php print render($field_evidence_link[0]['url']); ?></a> ]</span></h2>
 
@@ -18,4 +18,4 @@
     print render($content);
   ?>
 
-</article> <!-- /.node -->
+</article>
