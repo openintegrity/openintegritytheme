@@ -312,23 +312,6 @@ function bootstrap_bootstrap_search_form_wrapper(&$variables) {
   return $output;
  }
 
-function bootstrap_form_user_register_form_alter(&$form, &$form_state) {
-// JUN: Changing the title of the buttons on the inline_entity_form (https://drupal.org/node/1880850#comment-6936976)
- 
-//   var_dump($form['profile_developer']['field_tool']['und']['actions']);
-   switch ($form['#action']) {
-     case '/developer/register':
-//      echo dprint_r($form['profile_developer']['field_tool']['und']['form'],true);
-      $form['profile_developer']['field_tool']['und']['actions']['ief_add']['#value'] = t('Submit a new Tool');
-      $form['profile_developer']['field_tool']['und']['actions']['ief_add_existing']['#value'] = t('Search for a Tool');
-      $form['profile_developer']['field_tool']['und']['form']['entity_id']['#title'] = t('Tool name');
-      $form['profile_developer']['field_tool']['und']['form']['actions']['ief_reference_save']['#value'] = t('Select Tool');
-      $form['profile_developer']['field_tool']['und']['form']['#title'] = t('Add your Tool');
-      $form['profile_developer']['field_tool']['und']['form']['actions']['ief_add_save']['#value'] = t('Save your Tool');
-      break;
-  }
-}
-
 /**
  * Implements hook_form_FORM_ID_alter();
  */
