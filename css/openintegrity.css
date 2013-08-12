@@ -51,11 +51,22 @@ p {
   line-height: 1.8em;
 }
 
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
 /* -- Header
 ------------------------ */
 
 #logo-wrapper {
   margin-left: 0;
+}
+
+.navbar .logo {
+  float: left;
+  margin: 5px 0 0 0;
 }
 
 
@@ -85,6 +96,7 @@ p {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
+  padding: 0;
 }
 
 #nav ul {
@@ -217,7 +229,7 @@ p {
 }
 
 .row-icons {
-  padding: 30px 0 20px 0;
+  padding: 40px 0 30px 0;
 }
 
 .home1, .home2, .home3 {
@@ -280,7 +292,7 @@ p {
 }
 
 
-/* -- Views
+/* -- Browse Views
 ------------------------ */
 
 .index-browse {
@@ -289,9 +301,9 @@ p {
   overflow: hidden;
 }
 
-.navbar .logo {
+.logo {
   float: left;
-  margin: 5px 0 0 0;
+  margin: 12px;
 }
 
 .index-browse .node-entry {
@@ -352,6 +364,11 @@ p {
   left: 10px;
 }
 
+#edit-search-api-views-fulltext-wrapper {
+  background: url('../img/search-bar.png') no-repeat 6px 8px;
+  padding: 6px 6px;
+}
+
 
 /* -- Node forms
 ------------------------ */
@@ -377,6 +394,10 @@ p {
   padding: 6px 20px;
   margin-left: 22px;
   display: inline;
+}
+
+.node-evidence-form .link-field-subrow {
+  float: left;
 }
 
 .control-group {
@@ -629,7 +650,7 @@ h3.nested-title .span-block {
 }
 
 .row-icons-bottom {
-  padding: 30px 0 20px 0;
+  padding: 60px 0 60px 0;
   background-color: #f8f8fc;
 }
 
