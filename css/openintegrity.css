@@ -364,6 +364,18 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
   font-size: 11px;
 }
 
+.index-activity .developer {
+  background: url('../img/developer-small.png') no-repeat 8px 7px;
+}
+
+.index-activity .peer-reviewer {
+  background: url('../img/peer-review-small.png') no-repeat 8px 7px;
+}
+
+.index-activity .views-row .community {
+  background: url('../img/community-small.png') no-repeat 8px 7px;
+}
+
 .views-exposed-form label.compact-form-label {
   font-weight: normal;
   text-transform: uppercase;
@@ -766,7 +778,7 @@ h3.nested-title .span-block {
   background: url('../img/developer.png') no-repeat 16px 14px;
 }
 
-.view-entry-evidence .views-row .peer-review {
+.view-entry-evidence .views-row .peer-reviewer {
   background: url('../img/peer-review.png') no-repeat 7px 14px;
 }
 
