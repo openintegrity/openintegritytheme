@@ -55,8 +55,8 @@
     <div id="viewport">
       <?php print $rows; ?>
     </div>
-	<a id="simplePrevious">&#62;</a>
-	<a id="simpleNext">&#60;</a>
+	<a id="simplePrevious">&#60;</a>
+	<a id="simpleNext">&#62;</a>
   <?php elseif ($empty): ?>
     <div class="view-empty">
       <?php print $empty; ?>
