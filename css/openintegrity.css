@@ -366,7 +366,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 
 
 #edit-search-api-views-fulltext {
-  background: url('../img/search-bar.png') no-repeat 6px 8px;
+  background: #FFF url('../img/search-bar.png') no-repeat 408px center;
   padding: 6px 6px;
   width: 430px;
 }
@@ -739,9 +739,32 @@ h3.nested-title .span-block {
 }
 
 
-/* -- Index nodes
+/* -- Carousel
 ------------------------ */
 
+.carousel-slide {
+  width: 280px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.carousel-slide .field-name-field-logo {
+  float: left;
+  margin-right: 10px;
+}
+
+.carousel-slide h2 {
+  text-transform: none;
+  font-weight: normal;
+  padding: 12px 0 0 0;
+}
+
+.carousel-slide .field-name-field-entry-score {
+  float: right;
+}
+
 .entry-teaser-link {
+  float: right;
+  margin: 7px 10px 0 0;
   text-transform: uppercase;
 }
