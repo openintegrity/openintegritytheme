@@ -810,12 +810,12 @@ h3.nested-title .span-block {
   clear: both;
 }
 
-.carousel-title {
+#carousel-title {
   width: 250px;
   padding-right: 70px;
 }
 
-.carousel-title h2 {
+#carousel-title h2 {
   color: #4d55a5;
   margin-bottom: 10px;
 }
