@@ -222,6 +222,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 .btn:hover,
 .btn:active {
   background-color: #4d55a5;
+  color: #fff;
 }
 
 
@@ -367,7 +368,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
   font-weight: normal;
   text-transform: uppercase;
   font-size: 14px;
-  top: 12px;
+  top: 8px;
   left: 10px;
 }
 
@@ -446,6 +447,10 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
   background-color: #f0efef;
 }
 
+.compact-form-label {
+  top: 5px;
+  left: 8px;
+}
 
 /* -- Index nodes
 ------------------------ */
