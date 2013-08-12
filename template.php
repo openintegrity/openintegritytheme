@@ -350,8 +350,6 @@ function bootstrap_preprocess_node(&$vars) {
     $vars['theme_hook_suggestions'][] = 'node__' . $vars['node']->type . '__badge';   
     $vars['theme_hook_suggestions'][] = 'node__' . $vars['node']->nid . '__badge';
   }
-  global $user;
-  $vars['current_user_roles'] = $user->roles;
 }
 
 /**
