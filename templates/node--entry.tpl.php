@@ -60,4 +60,3 @@
   </div>
 
 </article> <!-- /.node -->
-<?php endif; ?>
