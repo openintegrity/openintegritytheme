@@ -764,19 +764,18 @@ h3.nested-title .span-block {
 	height: 82px;
 	float: left; /* Places list items side by side*/
 	list-style: none; /* Resets default - User Agent - style */
-	
-	/* Cosmetic */
-	background-color: red;
-	margin: 0 1px;
-	padding: 10px;
-	text-align:center;
 }
 
 /* Cosmetic */
 #simplePrevious, #simpleNext{
 	cursor: pointer;
-	font-size: 0.8em;
-	text-decoration: underline;	
+	font-size: 2em;
+	font-weight: bold;
+	color:#000;
+}
+
+#simplePrevious:hover, #simpleNext:hover;{
+  text-decoration: none;
 }
 
 .carousel-slide {

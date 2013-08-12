@@ -363,7 +363,6 @@ function bootstrap_preprocess_html(&$variables) {
       drupal_add_js('
 	  	jQuery(document).ready(function(){
 			jQuery("#viewport").carousel("#simplePrevious", "#simpleNext");  
-		});
-	  });', 'inline');
+	    });', 'inline');
     }
 }
