@@ -369,11 +369,11 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 }
 
 .index-activity .peer-reviewer {
-  background: url('../img/peer-review-small.png') no-repeat 8px 7px;
+  background: url('../img/peer-review-small.png') no-repeat 3px 7px;
 }
 
-.index-activity .views-row .community {
-  background: url('../img/community-small.png') no-repeat 8px 7px;
+.index-activity .community {
+  background: url('../img/community-small.png') no-repeat 7px 7px;
 }
 
 .views-exposed-form label.compact-form-label {
