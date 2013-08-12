@@ -351,3 +351,18 @@ function bootstrap_preprocess_node(&$vars) {
     $vars['theme_hook_suggestions'][] = 'node__' . $vars['node']->nid . '__badge';
   }
 }
+
+/**
+ * 
+ */
+function bootstrap_preprocess_html(&$variables) {
+  $path = drupal_get_path_alias();
+  if($path == 'alternatives') {
+      drupal_add_js($theme_path . '/js/jquery.infinite-carousel.js');
+      drupal_add_js('
+	  	jQuery(document).ready(function(){
+			jQuery("#viewport").carousel("#simplePrevious", "#simpleNext");  
+		});
+	  });', 'inline');
+    }
+}
