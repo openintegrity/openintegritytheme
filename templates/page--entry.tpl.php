@@ -9,7 +9,7 @@
       </a>
 
       <?php if (!empty($logo)): ?>
-	    <div id="logo-wrapper" class="span3">
+	    <div id="logo-wrapper" class="span4">
           <a class="logo pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
             <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
           </a>
