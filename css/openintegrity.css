@@ -746,7 +746,6 @@ h3.nested-title .span-block {
   margin-left: 330px;
 }
 
-
 .carousel-slide {
   width: 280px;
   overflow: hidden;
@@ -773,4 +772,8 @@ h3.nested-title .span-block {
   float: right;
   margin: 7px 10px 0 0;
   text-transform: uppercase;
+}
+
+.view-alternatives ul.pager {
+  clear: both;
 }
