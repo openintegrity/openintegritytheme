@@ -742,10 +742,16 @@ h3.nested-title .span-block {
 /* -- Carousel
 ------------------------ */
 
+.view-alternatives .view-content {
+  margin-left: 330px;
+}
+
+
 .carousel-slide {
   width: 280px;
   overflow: hidden;
-  margin-bottom: 20px;
+  margin: 0 20px 20px 0;
+  float: left;
 }
 
 .carousel-slide .field-name-field-logo {
@@ -756,7 +762,7 @@ h3.nested-title .span-block {
 .carousel-slide h2 {
   text-transform: none;
   font-weight: normal;
-  padding: 12px 0 0 0;
+  padding: 2px 0 0 0;
 }
 
 .carousel-slide .field-name-field-entry-score {
