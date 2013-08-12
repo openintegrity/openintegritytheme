@@ -813,6 +813,7 @@ h3.nested-title .span-block {
 #carousel-title {
   width: 250px;
   padding-right: 70px;
+  float: left;
 }
 
 #carousel-title h2 {
