@@ -219,6 +219,11 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
   box-shadow: 1px 1px 0 rgba(40,37,144,0.75);
 }
 
+.btn:hover,
+.btn:active {
+  background-color: #4d55a5;
+}
+
 
 /* -- Home
 ------------------------ */
@@ -366,11 +371,18 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
   left: 10px;
 }
 
-
 #edit-search-api-views-fulltext {
   background: #FFF url('../img/search-bar.png') no-repeat 408px center;
   padding: 6px 6px;
   width: 430px;
+}
+
+.view-browse .views-exposed-form .views-exposed-widget {
+  padding: 0 1em 0 0;
+}
+
+#views-exposed-form-browse-page {
+  margin: 0 0 10px 0;
 }
 
 
@@ -428,6 +440,10 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 
 .form-type-select .caret {
   border-top: 4px solid #fff;
+}
+
+.dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a {
+  background-color: #f0efef;
 }
 
 
