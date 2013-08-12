@@ -362,7 +362,7 @@ function bootstrap_preprocess_html(&$variables) {
       drupal_add_js($theme_path . '/js/jquery.infinite-carousel.js');
       drupal_add_js('
 	  	jQuery(document).ready(function(){
-			jQuery("#viewport").carousel("#simplePrevious", "#simpleNext");  
+			jQuery("#viewport").incarousel("#simplePrevious", "#simpleNext");  
 	    });', 'inline');
     }
 }

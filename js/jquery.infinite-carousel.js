@@ -4,7 +4,7 @@
  */
 
 
-jQuery.fn.carousel = function(previous, next, options){
+jQuery.fn.incarousel = function(previous, next, options){
 	var sliderList = jQuery(this).children()[0];
 	
 	if (sliderList) {
