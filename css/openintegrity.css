@@ -743,7 +743,7 @@ h3.nested-title .span-block {
 ------------------------ */
 
 #viewport{
-	width: 610px; /* Defines the size of the visible part of the carousel
+	width: 580px; /* Defines the size of the visible part of the carousel
 		Attention : if you only want to see plain items in the viewport,
 		the width of the viewport should take into account of :
 		- the items width
@@ -810,3 +810,12 @@ h3.nested-title .span-block {
   clear: both;
 }
 
+.carousel-title {
+  width: 250px;
+  padding-right: 70px;
+}
+
+.carousel-title h2 {
+  color: #4d55a5;
+  margin-bottom: 10px;
+}
