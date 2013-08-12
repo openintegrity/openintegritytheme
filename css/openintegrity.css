@@ -349,11 +349,13 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 .claim {
   background: url('../img/claim-icon.png') no-repeat 8px center;
   padding: 2px 20px 4px 30px;
+  font-size: 11px;
 }
 
 .evidence {
-  background: url('../img/evidence-icon.png') no-repeat 6px 8px;
+  background: url('../img/evidence-icon.png') no-repeat 8px 7px;
   padding: 2px 20px 4px 30px;
+  font-size: 11px;
 }
 
 .views-exposed-form label.compact-form-label {
@@ -679,6 +681,10 @@ h3.nested-title .span-block {
   font-weight: 400;
   width: 60%;
   margin: 0 auto;
+}
+
+.evidence a {
+  text-decoration: none;
 }
 
 .Supporting {
