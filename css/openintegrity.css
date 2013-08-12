@@ -364,9 +364,11 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
   left: 10px;
 }
 
-#edit-search-api-views-fulltext-wrapper {
+
+#edit-search-api-views-fulltext {
   background: url('../img/search-bar.png') no-repeat 6px 8px;
   padding: 6px 6px;
+  width: 430px;
 }
 
 
@@ -734,4 +736,12 @@ h3.nested-title .span-block {
 
 .submitted-by {
   font-size: 11px;
+}
+
+
+/* -- Index nodes
+------------------------ */
+
+.entry-teaser-link {
+  text-transform: uppercase;
 }
