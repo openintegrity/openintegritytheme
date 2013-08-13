@@ -416,7 +416,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
   background-color: #f9f9fe;
   width: 600px;
   padding: 20px;
-  margin: 20px 0;
+  margin: 20px 0 !important;
 }
 
 .node-evidence-form .help-block {
