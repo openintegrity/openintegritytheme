@@ -1,6 +1,7 @@
+<div class="row row-header">
 <header id="navbar" role="banner" class="navbar container">
   <div class="navbar-inner">
-    <div class="container">
+    <div class="span12">
       <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
       <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
         <span class="icon-bar"></span>
@@ -34,7 +35,7 @@
     </div>
   </div>
 </header>
-
+</div>
 
 <?php if (!empty($page['highlighted'])): ?>
   <div class="row row-hero">
