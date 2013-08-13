@@ -464,7 +464,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
   left: 8px;
 }
 
-/* -- Index nodes
+/* -- Entry nodes
 ------------------------ */
 
 .view-entry .group-level-1 .view-grouping-header {
@@ -788,6 +788,14 @@ h3.nested-title .span-block {
 
 .submitted-by {
   font-size: 11px;
+}
+
+.node-type-entry .comment-wrapper {
+  margin-top: 40px;
+}
+
+#entry-node-form .form-wrapper {
+  margin: 20px 0;
 }
 
 
