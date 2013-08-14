@@ -50,6 +50,7 @@
         <?php print render($content['field_logo']); ?>
         <h2<?php print $title_attributes; ?>><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h2>
         <?php print render($content['body']); ?>
+        <?php print $node->body[$node->language][0]['safe_value']; ?>
 	  </div>
     </div>
   </div>
