@@ -675,6 +675,11 @@ h3.nested-title .span-block {
   margin: 0 10px 20px 0;
 }
 
+.entry-info .field-name-field-dependencies {
+  float: none;
+  width: 100%;
+}
+
 .entry-title .field-name-field-logo {
   float: left;
   margin: 0 30px 0 20px;	
