@@ -686,7 +686,9 @@ h3.nested-title .span-block {
 }
 
 .entry-title p {
-  margin-left: 30px;
+  margin-left: 18px;
+  clear: both;
+  padding-top: 10px;
 }
 
 .entry-title {
