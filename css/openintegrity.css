@@ -786,6 +786,10 @@ h3.nested-title .span-block {
   margin: 20px 0 0 28px;
 }
 
+.view-entry .claim-description {
+  margin: 8px 0 0 28px;
+}
+
 .view-entry-evidence .node-teaser h2 {
   font-size: 14px;
   text-transform: none;
