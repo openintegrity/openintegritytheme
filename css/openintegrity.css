@@ -681,8 +681,12 @@ h3.nested-title .span-block {
 }
 
 .entry-title h2 {
-  padding: 15px 0 0 0;
+  padding: 0;
   font-size: 25px;
+}
+
+.entry-title p {
+  margin-left: 30px;
 }
 
 .entry-title {
