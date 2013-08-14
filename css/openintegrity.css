@@ -268,6 +268,44 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 }
 
 
+/* -- Bottom row icons
+------------------------ */
+
+.row-icons-bottom {
+  padding: 60px 0 60px 0;
+  background-color: #f8f8fc;
+}
+
+.entry1 h2 a, .entry2 h2 a, .entry3 h2 a {
+  padding-top: 100px;
+  display: block
+}
+
+.entry1 {
+  margin-left: 0;
+}
+
+.entry1 h2 a {
+  background: url('../img/entry-1.png') no-repeat top center;
+}
+
+.entry2 h2 a {
+  background: url('../img/entry-2.png') no-repeat top center;
+}
+
+.entry3 h2 a {
+  background: url('../img/entry-3.png') no-repeat top center;
+}
+
+.row-icons-bottom h2 {
+  font-size: 12px;
+  text-align: center;
+  font-weight: 400;
+  width: 60%;
+  margin: 0 auto;
+}
+
+
 /* -- Hero
 ------------------------ */
 
@@ -710,36 +748,6 @@ h3.nested-title .span-block {
 
 .entry-info-bottom {
   
-}
-
-.row-icons-bottom {
-  padding: 60px 0 60px 0;
-  background-color: #f8f8fc;
-}
-
-.entry1, .entry2, .entry3 {
-  padding-top: 100px;
-}
-
-.entry1 {
-  background: url('../img/entry-1.png') no-repeat top center;
-  margin-left: 0;
-}
-
-.entry2 {
-  background: url('../img/entry-2.png') no-repeat top center;
-}
-
-.entry3 {
-  background: url('../img/entry-3.png') no-repeat top center;
-}
-
-.row-icons-bottom h2 {
-  font-size: 12px;
-  text-align: center;
-  font-weight: 400;
-  width: 60%;
-  margin: 0 auto;
 }
 
 .evidence a {
