@@ -238,20 +238,24 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
   padding: 40px 0 30px 0;
 }
 
-.home1, .home2, .home3 {
+.home1 h2 a, .home2 h2 a, .home3 h2 a {
   padding-top: 100px;
+  display: block;
 }
 
 .home1 {
-  background: url('../img/home-1.png') no-repeat top center;
   margin-left: 0;
 }
 
-.home2 {
+.home1 h2 a {
+  background: url('../img/home-1.png') no-repeat top center;
+}
+
+.home2 h2 a {
   background: url('../img/home-2.png') no-repeat top center;
 }
 
-.home3 {
+.home3 h2 a {
   background: url('../img/home-3.png') no-repeat top center;
 }
 
