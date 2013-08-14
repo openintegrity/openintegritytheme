@@ -662,7 +662,6 @@ h3.nested-title .span-block {
 .entry-meta {
   width: 500px;
   float: right;
-  overflow: hidden;
 }
 
 .entry-info {
@@ -684,6 +683,18 @@ h3.nested-title .span-block {
 .entry-title h2 {
   padding: 15px 0 0 0;
   font-size: 25px;
+}
+
+.entry-title {
+  
+}
+
+.entry-info-top {
+  
+}
+
+.entry-info-bottom {
+  
 }
 
 .row-icons-bottom {
