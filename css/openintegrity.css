@@ -461,13 +461,13 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
   margin: 20px 0 !important;
 }
 
-.node-evidence-form .help-block {
+#evidence-node-form .help-block {
   padding: 6px 20px;
   margin-left: 22px;
   display: inline;
 }
 
-.node-evidence-form .link-field-subrow {
+#evidence-node-form .link-field-subrow {
   float: left;
 }
 
@@ -766,17 +766,17 @@ h3.nested-title .span-block {
   clear: both;
 }
 
-.node-evidence-form .group-evidence-information {
+#evidence-node-form .group-evidence-information {
   border: 1px solid #e9e6f3;
   padding: 0 30px 30px;
   margin: 30px 0;
 }
 
-.node-evidence-form .group-evidence-information legend {
+#evidence-node-form .group-evidence-information legend {
   display: none;
 }
 
-.node-evidence-form .form-actions {
+#evidence-node-form .form-actions {
   background: #fff;
   border: 0;
   padding: 0;
