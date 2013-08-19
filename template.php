@@ -112,6 +112,7 @@ function bootstrap_breadcrumb($variables) {
  * Override or insert variables in the html_tag theme function.
  */
 function bootstrap_process_html_tag(&$variables) {
+
   $tag = &$variables['element'];
 
   if ($tag['#tag'] == 'style' || $tag['#tag'] == 'script') {
@@ -349,3 +350,26 @@ function bootstrap_preprocess_html(&$variables) {
 	    });', 'inline');
     }
 }
+/*
+function bootstrap_variables($hook, $vars) {
+  switch ($hook) {
+    case 'page':
+		global $language;
+		print $language->direction;
+    // fetch the array of css files loaded by the theme
+    $css = drupal_add_css();
+	print_r($css);
+    // if we're dealing with a RTL language, add in our stylesheet
+    if (module_invoke('i18n', 'language_rtl')) {
+      $css['all']['theme'][$path.'/networks/style-rtl.css'] = true;
+    }
+
+    // put the array of CSS files back into the 'styles' variable for phptemplate.
+    $vars['styles'] = drupal_get_css($css);
+    
+    default:
+      return array();
+    break;
+  }
+}
+*/

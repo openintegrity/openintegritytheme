@@ -1,0 +1,965 @@
+@media(min-width:980px) and (max-width:1199px),(min-width:1200px){body{padding-top:10px}}body.toolbar .navbar-fixed-top{top:10px}body.toolbar-drawer .navbar-fixed-top{top:10px}
+
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+
+
+/* -- Typography
+------------------------ */
+
+body {
+
+  font-family: 'Droid Arabic Naskh', serif;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+  font-family: 'Droid Arabic Naskh', serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 15px;
+}
+
+h4 {
+  font-size: 14px;
+}
+
+h5 {
+  font-size: 13px;
+}
+
+h6 {
+  font-size: 12px;
+}
+
+a {
+  color: #4d55a5;
+}
+
+a:hover {
+  color: #4d55a5;
+}
+
+p {
+  line-height: 1.8em;
+}
+
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+/* -- Header
+------------------------ */
+
+
+.navbar .logo {
+    float: right;
+	margin: 5px 0 0 0;
+
+}
+#logo-wrapper{
+	float:right;
+	margin-right:0;
+}
+
+
+/* -- Layout
+------------------------ */
+
+#sidebar-first {
+  margin-left: 0;
+  margin-right:0;
+}
+
+.row-content {
+  padding-bottom: 80px;
+}
+
+
+/* -- Navigation
+------------------------ */
+
+.navbar-inner {
+  background-color: transparent;
+  background-image: none;
+  border: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  filter: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  padding: 0;
+}
+
+#nav ul {
+  float: left !important;
+	
+  margin: 1.5em 0;
+  padding: 0;
+  list-style: none;
+  width: auto;
+  -webkit-border-radius: 7px;  
+  border-radius: 7px;
+  background: rgba(255,255,255,0.1);
+}
+
+#nav li {
+  display: block;
+  float: right;
+  width: 100%;
+  width: auto;
+  *width: 24.9%; /* IE7 Hack */ /* IE6 Hack */
+}
+
+#nav a {
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 17px;
+  margin: 0 30px 0 0;
+  float: left;
+
+  font-weight: 300;
+  line-height: 32px;
+  background: none;
+  font-size: 1em;
+  font-weight: 300;
+  text-shadow: none;
+}
+
+#nav li a:hover,
+#nav li a.active {
+	background: #4d55a5;
+	color: #fff;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	-webkit-box-shadow: none; /*1px 1px 0 rgba(40,37,144,0.75);*/
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+
+/* -- Footer
+------------------------ */
+
+.footer {
+  background-color:#333;
+  color: #fff;
+  margin-top: 0;
+}
+
+.social-links {
+  list-style: none;
+  overflow: hidden;
+  margin:0;
+}
+
+.social-links a {
+  height: 38px;
+  width: 34px;
+  display: block;
+  float: left;
+  margin: 0 10px 0 0;
+  overflow:hidden;
+  text-indent:-9999px;
+  background: url('../img/footer-social.png') top left;
+}
+
+.social-links .facebook a {
+  background-position: -44px 0;
+}
+
+.social-links .google a {
+  background-position: -89px 0;
+}
+
+.social-block h2 {
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.social-block {
+  height: 82px;
+  background: url('../img/integrity-icon.png') no-repeat top right;
+}
+
+
+/* -- Button
+------------------------ */
+
+.btn {
+  padding: 6px 40px;
+  text-shadow: none;
+  background-color: #ddd;
+  background-image: none;
+  border-color: transparent;
+  /*-webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;*/
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background: #4d55a5;
+  color: #fff;
+  border-color: transparent;
+  -webkit-box-shadow: 1px 1px 0 rgba(40,37,144,0.75);
+  -moz-box-shadow: 1px 1px 0 rgba(40,37,144,0.75);
+  box-shadow: 1px 1px 0 rgba(40,37,144,0.75);
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #4d55a5;
+  color: #fff;
+}
+
+
+/* -- Home
+------------------------ */
+
+.front .row-content {
+  background-color: #f9f9fe;
+  padding-top: 40px;
+}
+
+.row-icons {
+  padding: 40px 0 30px 0;
+}
+
+.home1 h2 a, .home2 h2 a, .home3 h2 a {
+  padding-top: 100px;
+  display: block;
+}
+
+.home1 {
+  margin-left: 0;
+}
+
+.home1 h2 a {
+  background: url('../img/home-1.png') no-repeat top center;
+}
+
+.home2 h2 a {
+  background: url('../img/home-2.png') no-repeat top center;
+}
+
+.home3 h2 a {
+  background: url('../img/home-3.png') no-repeat top center;
+}
+
+.row-icons h2 {
+  font-size: 12px;
+  text-align: center;
+  font-weight: 400;
+  width: 60%;
+  margin: 0 auto;
+}
+
+
+/* -- Bottom row icons
+------------------------ */
+
+.row-icons-bottom {
+  padding: 60px 0 60px 0;
+  background-color: #f8f8fc;
+}
+
+.entry1 h2 a, .entry2 h2 a, .entry3 h2 a {
+  padding-top: 100px;
+  display: block
+}
+
+.entry1 {
+  margin-left: 0;
+}
+
+.entry1 h2 a {
+  background: url('../img/entry-1.png') no-repeat top center;
+}
+
+.entry2 h2 a {
+  background: url('../img/entry-2.png') no-repeat top center;
+}
+
+.entry3 h2 a {
+  background: url('../img/entry-3.png') no-repeat top center;
+}
+
+.row-icons-bottom h2 {
+  font-size: 12px;
+  text-align: center;
+  font-weight: 400;
+  width: 60%;
+  margin: 0 auto;
+}
+
+
+/* -- Hero
+------------------------ */
+
+.row-hero {
+  height: 412px;
+  background: #e6e6e6 url('../img/hero-bg.png') no-repeat center center;
+  border-top: 1px solid #c5c3ef;
+}
+
+.hero-unit h2 {
+  font-size: 40px;
+  text-align:center;
+}
+
+.hero-unit {
+  border-radius: 0;
+  background-color: transparent;
+}
+
+
+/* -- Blocks
+------------------------ */
+
+#sidebar-first h2.block-title {
+  color: #666666;
+  background-color: #D9D9DB;
+  font-weight: 400;
+  font-family: 'Droid Arabic Naskh', serif;
+  font-size: 14px;
+  line-height: 33px;
+  padding-left: 0;
+  padding-right:15px;
+}
+
+
+/* -- Browse Views
+------------------------ */
+
+.index-browse {
+  background-color: #f2f1f8;
+  margin-bottom: 4px;
+  overflow: hidden;
+}
+
+.logo {
+  float: left;
+  margin: 12px;
+}
+
+.index-browse .node-entry {
+  float: right;
+  margin: 9px;
+  height: 34px;
+}
+
+.index-browse h4 {
+  text-transform: none;
+  color: #4D4D4D;
+  line-height: 52px;
+  font-size: 17px;
+  margin: 0 0 0 65px;
+}
+
+.index-activity {
+  border: 2px solid #f2f1fd;
+  margin-bottom: 4px;
+  padding-bottom: 10px;
+}
+
+.index-activity .oii-badge {
+  float: right;
+  margin: -54px 4px 0 0;
+  list-style: none;
+}
+
+.index-activity h4 {
+  text-transform: none;
+  background-color: #f2f1fd;
+  line-height: 50px;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0 0 10px 0;
+}
+
+.index-activity h4 a,
+.index-browse h4 a{
+  color: #4D4D4D;
+}
+
+.claim {
+  background: url('../img/claim-icon.png') no-repeat 8px center;
+  padding: 2px 20px 4px 30px;
+  font-size: 11px;
+}
+
+.evidence {
+  background: url('../img/evidence-icon.png') no-repeat 8px 7px;
+  padding: 2px 20px 4px 30px;
+  font-size: 11px;
+}
+
+.index-activity .developer {
+  background: url('../img/developer-small.png') no-repeat 8px 7px;
+}
+
+.index-activity .peer-reviewer {
+  background: url('../img/peer-review-small.png') no-repeat 3px 7px;
+}
+
+.index-activity .community {
+  background: url('../img/community-small.png') no-repeat 7px 7px;
+}
+
+.views-exposed-form label.compact-form-label {
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 14px;
+  top: 8px;
+  left: 10px;
+}
+
+#edit-search-api-views-fulltext {
+  background: #FFF url('../img/search-bar.png') no-repeat 408px center;
+  padding: 6px 6px;
+  width: 430px;
+}
+
+.view-browse .views-exposed-form .views-exposed-widget {
+  padding: 0 1em 0 0;
+}
+
+#views-exposed-form-browse-page {
+  margin: 0 0 10px 0;
+}
+
+
+/* -- Node forms
+------------------------ */
+
+.link-field-url {
+  padding: 0 0 0 30px;
+  background: url('../img/link-icon.png') no-repeat left center;
+}
+
+.node-form .form-wrapper {
+  margin: 30px 0;
+}
+
+.help-block,
+.description {
+  background-color: #f9f9fe;
+  width: 600px;
+  padding: 20px;
+  margin: 20px 0 !important;
+}
+
+.node-evidence-form .help-block {
+  padding: 6px 20px;
+  margin-left: 22px;
+  display: inline;
+}
+
+.node-evidence-form .link-field-subrow {
+  float: left;
+}
+
+.control-group {
+  margin-bottom: 0;
+}
+
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+  margin-bottom: 0;
+}
+
+.form-type-select .btn {
+  color: #fff;
+  background-color: #4d55a5;
+}
+
+.form-type-select .btn:hover, .form-type-select .btn:active, .form-type-select .btn.active, .form-type-select .btn.disabled, .form-type-select .btn[disabled] {
+  color: #fff;
+  background-color: #4d55a5;
+}
+
+.form-type-select .btn-group.open .btn.dropdown-toggle {
+  background-color: #4d55a5;
+}
+
+.form-type-select .caret {
+  border-top: 4px solid #fff;
+}
+
+.dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a {
+  background-color: #f0efef;
+}
+
+.compact-form-label {
+  top: 5px;
+  left: 8px;
+}
+
+/* -- Entry nodes
+------------------------ */
+
+.view-entry .group-level-1 .view-grouping-header {
+  /*padding: 10px 20px;*/
+    font-family: 'Droid Arabic Naskh', serif;
+}
+
+.view-entry .group-level-1:nth-child(2n+1) .view-grouping-header {
+  background-color: #f9f9fe;
+}
+
+.view-entry .group-level-1 .view-grouping-header h2 {
+  margin-bottom: 0;
+  margin-top: 0;
+    font-family: 'Droid Arabic Naskh', serif;
+  text-transform: none;
+  font-size: 18px;
+}
+
+.view-entry .group-level-1 .view-grouping-header h2 a {
+    font-family: 'Droid Arabic Naskh', serif;
+  color: #000;
+  font-size: 18px;
+  text-transform: none;
+}
+
+.view-entry .group-level-1 .view-grouping-content h3 {
+    font-family: 'Droid Arabic Naskh', serif;
+  color: #000;
+  font-size: 16px;
+  text-transform: none;
+  border-bottom: 1px solid #f4f3fe;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.view-entry .group-level-1 .view-grouping-content h3.disputed .container {
+  color: #f6917d;
+  background: url('../img/disputed.png') no-repeat center left;
+}
+
+.view-entry .group-level-1 .view-grouping-content h3.unsubstantiated .container {
+  color: #949494;
+  background: url('../img/unsubstantiated.png') no-repeat center left;
+}
+
+.view-entry .group-level-1 .nested-title{
+  margin-left: 28px;
+}
+
+.view-entry .group-level-1 .index-trigger {
+  background: url('../img/caret-up.png') no-repeat top center;
+  cursor: pointer;
+  float: right;
+  margin-left: 22px;
+  width: 8px;
+  height: 6px;
+  display: block;
+  margin-top: 40px;
+  text-indent: -9999px;
+}
+
+.view-entry .group-level-1 .nested-title .index-trigger {
+  margin: 10px 0 0 20px;
+}
+
+.view-entry .group-level-1 .claim-score {
+  float: right;
+  width: 78px;
+  display: block;
+  text-align: center;
+  font-size: 10px;
+}
+
+.view-entry .group-level-1 .claim-status {
+  float: right;
+  font-size: 10px;
+}
+.view-entry .group-level-1 .subcriteria-score {
+  float: right;
+  background-color: #f8f8fc;
+  padding: 30px 30px;
+  border-left: #f1eff7 solid 1px;
+  border-right: #f1eff7 solid 1px;
+}
+.view-entry .group-level-1:nth-child(2n+1) .subcriteria-score {
+  background-color: #f3f2f9;
+}
+.view-entry .group-level-0 .criteria-score {
+  float:right;
+  background-color: #f8f8fc;
+  padding: 30px 22px;
+  border-left: #f1eff7 solid 1px;
+  border-right: #f1eff7 solid 1px;
+  margin-right: 30px;
+}
+.view-entry .group-level-0 .accordion-header-title h2 {
+  margin-top: 36px;
+  color: #4d55a5;
+}
+
+.view-entry .group-level-1 .subcriteria-info {
+  display:block;
+  font-size: 11px;
+  font-weight: normal;
+  text-transform: none;
+}
+
+.view-entry .group-level-1 .accordion-title {
+  padding-top: 20px;
+  display: block;
+    font-family: 'Droid Arabic Naskh', serif;
+}
+
+h1 .index-trigger {
+  display: none;
+}
+
+.view-entry .group-level-1 .view-header h4 {
+  float: left;
+  font-weight: normal;
+  font-size: .8em;
+}
+
+.span-block {
+  display: block;
+  margin-left: 0;
+}
+
+h3.nested-title .span-block {
+  float: none;
+  clear: none;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.view-entry .group-level-1 .view-filters {
+  float: right;
+  width: 230px;
+}
+
+.view-entry .group-level-1 .view-filters label {
+  float: left;
+  margin: 0 10px 0 0;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: .8em;
+}
+
+.view-entry .views-exposed-form .views-exposed-widget {
+  float: none;
+}
+
+.view-entry .group-level-1 .view-filters .bef-select-as-links .controls {
+  width: 160px;
+  overflow: hidden;
+}
+
+.view-entry .group-level-1 .view-filters .bef-select-as-links .controls .controls {
+  width: auto;
+}
+
+.view-entry .group-level-1 .view-filters .bef-select-as-links #edit-sort-bef-combine-created-asc {
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+.view-entry .group-level-1 .view-content {
+  clear: both;
+  border-top: 1px solid #f4f3f9;
+  padding-top: 10px;
+}
+
+.view-entry .group-level-1 .view-grouping-content {
+  border-top: 1px solid #dfdbee;
+  border-bottom: 1px solid #dfdbee;
+}
+
+.node-type-entry .container-fluid {
+  padding: 0;
+}
+
+.index-node {
+  margin-left: 30px;
+}
+
+.row-entry {
+  border-top: 2px solid #c8c3e1;
+  padding: 30px 0;
+  border-bottom: 2px solid #c8c3e1;
+  overflow: hidden;
+}
+
+.entry-meta {
+  width: 500px;
+  float: right;
+}
+
+.entry-info {
+  width: 300px;
+  float: left;
+}
+
+.entry-info .field {
+  float: left;
+  width: 140px;
+  margin: 0 10px 20px 0;
+}
+
+.entry-info .field-name-field-dependencies {
+  float: none;
+  width: 100%;
+}
+
+.entry-title .field-name-field-logo {
+  float: left;
+  margin: 0 30px 0 20px;	
+}
+
+.entry-title h2 {
+  padding: 0;
+  font-size: 25px;
+}
+
+.entry-title p {
+  margin-left: 18px;
+  clear: both;
+  padding-top: 10px;
+}
+
+.entry-title {
+  
+}
+
+.entry-info-top {
+  
+}
+
+.entry-info-bottom {
+  
+}
+
+.evidence a {
+  text-decoration: none;
+}
+
+.Supporting {
+  color: #17C9C9;	
+}
+
+.Opposing {
+  color: #F3715F;	
+}
+
+.view-entry-evidence .view-empty {
+  clear: both;
+}
+
+.node-evidence-form .group-evidence-information {
+  border: 1px solid #e9e6f3;
+  padding: 0 30px 30px;
+  margin: 30px 0;
+}
+
+.node-evidence-form .group-evidence-information legend {
+  display: none;
+}
+
+.node-evidence-form .form-actions {
+  background: #fff;
+  border: 0;
+  padding: 0;
+}
+
+.view-entry .view-entry-evidence {
+  margin: 20px 0 0 28px;
+}
+
+.view-entry .claim-description {
+  margin: 8px 0 0 28px;
+}
+
+.view-entry-evidence .node-teaser h2 {
+  font-size: 14px;
+  text-transform: none;
+    font-family: 'Droid Arabic Naskh', serif;
+  font-weight: bold;
+}
+
+.view-entry-evidence .node-teaser .link {
+  color: #4d55a5;
+}
+
+.view-entry-evidence .node-teaser .link a {
+  background: url('../img/link-teaser.png') no-repeat center left;
+  padding-left: 13px;
+}
+
+.view-entry-evidence .node-teaser {
+  border-bottom: 1px solid #f4f3f9;
+  padding: 0 0 15px 42px;
+  margin-bottom: 5px;
+}
+
+.view-entry-evidence .views-row .developer {
+  background: url('../img/developer.png') no-repeat 16px 14px;
+}
+
+.view-entry-evidence .views-row .peer-reviewer {
+  background: url('../img/peer-review.png') no-repeat 7px 14px;
+}
+
+.view-entry-evidence .views-row .community {
+  background: url('../img/community.png') no-repeat 10px 14px;
+}
+
+.submitted-by {
+  font-size: 11px;
+}
+
+.node-type-entry .comment-wrapper {
+  margin-top: 40px;
+}
+
+#entry-node-form .form-wrapper {
+  margin: 20px 0;
+}
+
+
+/* -- Carousel
+------------------------ */
+
+#viewport{
+	width: 580px; /* Defines the size of the visible part of the carousel
+		Attention : if you only want to see plain items in the viewport,
+		the width of the viewport should take into account of :
+		- the items width
+		- the right and left padding of items
+		- the number of items you want to see in the viewport
+	 */
+	overflow:hidden; /* Hides extra elements, those outside the viewport area */
+	/* Fix for IE */
+	position:relative;
+}
+#viewport ul{
+	position: relative; /* Enables positionning of elements inside viewport */
+	padding: 0; /* Resets default - User Agent - style */
+	margin: 0;
+}
+#viewport li{
+	width: 280px; /* Defines the size of inner element */
+	height: 82px;
+	float: left; /* Places list items side by side*/
+	list-style: none; /* Resets default - User Agent - style */
+}
+
+#simplePrevious, #simpleNext{
+	cursor: pointer;
+	font-size: 2em;
+	font-weight: bold;
+	color:#000;
+}
+
+#simplePrevious:hover, #simpleNext:hover;{
+  text-decoration: none;
+}
+
+.carousel-slide {
+  width: 280px;
+  overflow: hidden;
+  margin: 0 20px 20px 0;
+  float: left;
+}
+
+.carousel-slide .field-name-field-logo {
+  float: left;
+  margin-right: 10px;
+}
+
+.carousel-slide h2 {
+  text-transform: none;
+  font-weight: normal;
+  padding: 2px 0 0 0;
+}
+
+.carousel-slide .field-name-field-entry-score {
+  float: right;
+}
+
+.entry-teaser-link {
+  float: right;
+  margin: 7px 10px 0 0;
+  text-transform: uppercase;
+}
+
+.view-alternatives ul.pager {
+  clear: both;
+}
+
+#carousel-title {
+  width: 250px;
+  padding-right: 70px;
+  float: left;
+}
+
+#carousel-title h2 {
+  color: #4d55a5;
+  margin-bottom: 10px;
+}
+
+/*********RTL**********/
+[class*="span"] {
+   
+    min-height: 1px;
+	margin-right: 20px;
+	margin-left: 0;
+	float:right;
+}
+body {
+  direction: rtl;
+}
+.row {
+	margin:0 auto;
+}
+.nav-tabs > li, .nav-pills > li {
+    float: right;
+}
+ul.action-links li {
+    display: inline;
+    padding-left: 1.5em;
+	padding-right:0;
+}
+#back-top {
+    left: 40px;
+	right:auto;
+}
+.nav-collapse{
+	margin-right:0;
+	margin-left:0;
+}
+.navbar .btn-navbar{
+	float:left;
+}
+.table th, .table td {
+
+    text-align: right;
+
+}
