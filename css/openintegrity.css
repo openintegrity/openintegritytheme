@@ -805,6 +805,16 @@ h3.nested-title .span-block {
   font-size: 16px;
 }
 
+.submit-bubble {
+  background: url('../img/submit-triangle.png') no-repeat;
+  display: block;
+  width: 11px;
+  height: 12px;
+  border: 1px solid;
+  position: absolute;
+  top: 112px;
+}
+
 .view-entry .view-entry-evidence {
   margin: 20px 0 0 28px;
 }
