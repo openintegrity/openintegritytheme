@@ -793,14 +793,14 @@ h3.nested-title .span-block {
   color: #4d55a5;
   float: left;
   padding-left: 20px;
-  margin-left: 10px;
+  margin: 0 0 20px 10px;
 }
 
 .share-claim {
   background: url('../img/link-teaser.png') no-repeat center left;
   display: block;
   float: left;
-  padding-left: 13px;
+  padding-left: 18px;
   margin-left: 110px;
   font-size: 16px;
 }
