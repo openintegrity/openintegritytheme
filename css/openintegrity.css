@@ -461,16 +461,6 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
   margin: 20px 0 !important;
 }
 
-#evidence-node-form .help-block {
-  padding: 6px 20px;
-  margin-left: 22px;
-  display: inline;
-}
-
-#evidence-node-form .link-field-subrow {
-  float: left;
-}
-
 .control-group {
   margin-bottom: 0;
 }
@@ -769,7 +759,7 @@ h3.nested-title .span-block {
 #evidence-node-form .group-evidence-information {
   border: 1px solid #e9e6f3;
   padding: 0 30px 30px;
-  margin: 30px 0;
+  margin: 0 0 30px 0;
 }
 
 #evidence-node-form .group-evidence-information legend {
@@ -780,6 +770,39 @@ h3.nested-title .span-block {
   background: #fff;
   border: 0;
   padding: 0;
+}
+
+#evidence-node-form .help-block {
+  padding: 6px 20px;
+  margin-left: 22px;
+  display: inline;
+}
+
+#evidence-node-form .link-field-subrow {
+  float: left;
+}
+
+.entry-form-links {
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+.submit-evidence {
+  background: url('../img/submit-arrow.png') no-repeat center left;
+  font-size: 16px;
+  color: #4d55a5;
+  float: left;
+  padding-left: 20px;
+  margin-left: 10px;
+}
+
+.share-claim {
+  background: url('../img/link-teaser.png') no-repeat center left;
+  display: block;
+  float: left;
+  padding-left: 13px;
+  margin-left: 110px;
+  font-size: 16px;
 }
 
 .view-entry .view-entry-evidence {
