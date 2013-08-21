@@ -758,7 +758,7 @@ h3.nested-title .span-block {
 
 #evidence-node-form .group-evidence-information {
   border: 1px solid #e9e6f3;
-  padding: 0 30px 30px;
+  padding: 20px 30px 30px;
   margin: 0 0 30px 0;
 }
 
@@ -782,8 +782,15 @@ h3.nested-title .span-block {
   float: left;
 }
 
+#evidence-node-form {
+  clear: both;
+}
+
+#evidence-node-form .container-inline-date .date-padding {
+  padding: 15px 0 10px;
+}
+
 .entry-form-links {
-  overflow: hidden;
   margin-top: 30px;
 }
 
@@ -810,9 +817,9 @@ h3.nested-title .span-block {
   display: block;
   width: 11px;
   height: 12px;
-  border: 1px solid;
-  position: absolute;
-  top: 112px;
+  position: relative;
+  top: 15px;
+  z-index: 1;
 }
 
 .view-entry .view-entry-evidence {
