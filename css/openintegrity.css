@@ -774,13 +774,30 @@ h3.nested-title .span-block {
 
 #evidence-node-form .help-block {
   padding: 6px 20px;
-  margin-left: 22px;
-  display: inline;
+  margin: 0 0 0 20px !important;
+  float: left;
+  width: 50%;
+}
+
+#evidence-node-form #edit-field-evidence-status,
+#evidence-node-form #edit-field-evidence-date,
+#evidence-node-form #edit-field-evidence-link {
+  overflow: hidden;
+}
+
+#evidence-node-form #edit-field-evidence-status .btn-group{
+  float: left;
+}
+
+#evidence-node-form #edit-field-evidence-date-und-0-value-datepicker-popup-0 {
+  float: left;
+  width: 118px;
 }
 
 #evidence-node-form .link-field-subrow {
   float: left;
 }
+
 
 #evidence-node-form {
   clear: both;
@@ -795,7 +812,7 @@ h3.nested-title .span-block {
 }
 
 .submit-evidence {
-  background: url('../img/submit-arrow.png') no-repeat center left;
+  background: url('../img/submit-arrow.png') no-repeat center left 3px;
   font-size: 16px;
   color: #4d55a5;
   float: left;
