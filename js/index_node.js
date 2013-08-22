@@ -33,6 +33,7 @@ jQuery(document).ready(function () {
       } else {
         nestedPanels.removeClass('active').slideUp();
         $target.removeClass('active').slideUp();
+         window.location.hash = '';
       }
   });
 
