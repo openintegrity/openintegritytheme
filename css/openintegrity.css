@@ -426,6 +426,10 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
   left: 10px;
 }
 
+.views-exposed-form .views-exposed-widget .form-select {
+    margin-top: 1.8em;
+}
+
 #edit-search-api-views-fulltext {
   background: #FFF url('../img/search-bar.png') no-repeat 408px center;
   padding: 6px 6px;
@@ -785,7 +789,8 @@ h3.nested-title .span-block {
   overflow: hidden;
 }
 
-.view-entry-evidence form.container .field-name-field-evidence-status .btn-group{
+.view-entry-evidence form.container .field-name-field-evidence-status .btn-group,
+.view-entry-evidence form.container .field-name-field-evidence-status select.form-select {
   float: left;
 }
 
