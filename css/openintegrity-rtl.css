@@ -524,6 +524,12 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
   right: 20px;
 }
 
+.language-link {
+	
+	margin-right:30px;
+	
+}
+
 /* -- Entry nodes
 ------------------------ */
 
