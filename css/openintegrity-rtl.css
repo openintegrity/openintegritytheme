@@ -1,6 +1,6 @@
 @media(min-width:980px) and (max-width:1199px),(min-width:1200px){body{padding-top:10px}}body.toolbar .navbar-fixed-top{top:10px}body.toolbar-drawer .navbar-fixed-top{top:10px}
 
-@import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
 
 
 /* -- Typography
@@ -171,8 +171,8 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
   height: 38px;
   width: 34px;
   display: block;
-  float: left;
-  margin: 0 10px 0 0;
+  float: right;
+  margin: 0 0 0 10px;
   overflow:hidden;
   text-indent:-9999px;
   background: url('../img/footer-social.png') top left;
@@ -194,7 +194,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 
 .social-block {
   height: 82px;
-  background: url('../img/integrity-icon.png') no-repeat top right;
+  background: url('../img/integrity-icon.png') no-repeat top left;
 }
 
 
@@ -357,12 +357,12 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 }
 
 .logo {
-  float: left;
+  float: right;
   margin: 12px;
 }
 
 .index-browse .node-entry {
-  float: right;
+  float: left;
   margin: 9px;
   height: 34px;
 }
@@ -372,7 +372,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
   color: #4D4D4D;
   line-height: 52px;
   font-size: 17px;
-  margin: 0 0 0 65px;
+  margin: 0 65px 0 0;
 }
 
 .index-activity {
@@ -402,13 +402,15 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 }
 
 .claim {
-  background: url('../img/claim-icon.png') no-repeat 8px center;
+  background: url('../img/claim-icon.png') no-repeat right center;
   padding: 2px 20px 4px 30px;
+  margin-right:10px;
   font-size: 11px;
 }
 
 .evidence {
-  background: url('../img/evidence-icon.png') no-repeat 8px 7px;
+  background: url('../img/evidence-icon.png') no-repeat right 7px;
+  margin-right:10px;
   padding: 2px 20px 4px 30px;
   font-size: 11px;
 }
@@ -430,11 +432,11 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
   text-transform: uppercase;
   font-size: 14px;
   top: 8px;
-  left: 10px;
+
 }
 
 #edit-search-api-views-fulltext {
-  background: #FFF url('../img/search-bar.png') no-repeat 408px center;
+  background: #FFF url('../img/search-bar.png') no-repeat 8px center;
   padding: 6px 6px;
   width: 430px;
 }
@@ -483,7 +485,14 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 }
 
 select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
-  margin-bottom: 0;
+
+  direction:rtl;
+
+    left: auto;
+    margin: 0 0 0 auto;
+    padding: 6px;
+    right: 0;
+    text-align: right;
 }
 
 .form-type-select .btn {
@@ -510,7 +519,9 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 
 .compact-form-label {
   top: 5px;
-  left: 8px;
+  
+  left: auto;
+  right: 20px;
 }
 
 /* -- Entry nodes
@@ -568,8 +579,9 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 .view-entry .group-level-1 .index-trigger {
   background: url('../img/caret-up.png') no-repeat top center;
   cursor: pointer;
-  float: right;
-  margin-left: 22px;
+  float: left;
+  margin-right: 22px;
+  margin-left:0;
   width: 8px;
   height: 6px;
   display: block;
@@ -594,7 +606,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
   font-size: 10px;
 }
 .view-entry .group-level-1 .subcriteria-score {
-  float: right;
+  float: left;
   background-color: #f8f8fc;
   padding: 30px 30px;
   border-left: #f1eff7 solid 1px;
@@ -698,7 +710,7 @@ h3.nested-title .span-block {
 }
 
 .index-node {
-  margin-left: 30px;
+  margin-left: 0;
 }
 
 .row-entry {
@@ -962,4 +974,8 @@ ul.action-links li {
 
     text-align: right;
 
+}
+.pagination ul > li {
+    display: inline;
+    float: right;
 }
