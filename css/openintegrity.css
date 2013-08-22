@@ -805,6 +805,12 @@ h3.nested-title .span-block {
 
 #evidence-node-form .container-inline-date .date-padding {
   padding: 15px 0 10px;
+  width: 100%;
+}
+
+#evidence-node-form .container-inline-date .form-item, 
+#evidence-node-form .container-inline-date .form-item input {
+  width: 100%;
 }
 
 .entry-form-links {
@@ -812,7 +818,7 @@ h3.nested-title .span-block {
 }
 
 .submit-evidence {
-  background: url('../img/submit-arrow.png') no-repeat center left 3px;
+  background: url('../img/submit-arrow.png') no-repeat left 3px;
   font-size: 16px;
   color: #4d55a5;
   float: left;
