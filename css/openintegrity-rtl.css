@@ -432,6 +432,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
   text-transform: uppercase;
   font-size: 14px;
   top: 8px;
+  left: 31px;
 
 }
 
