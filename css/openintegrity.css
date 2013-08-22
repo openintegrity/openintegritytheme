@@ -756,60 +756,60 @@ h3.nested-title .span-block {
   clear: both;
 }
 
-#evidence-node-form .group-evidence-information {
+.view-entry-evidence form.container .group-evidence-information {
   border: 1px solid #e9e6f3;
   padding: 20px 30px 30px;
   margin: 0 0 30px 0;
 }
 
-#evidence-node-form .group-evidence-information legend {
+.view-entry-evidence form.container .group-evidence-information legend {
   display: none;
 }
 
-#evidence-node-form .form-actions {
+.view-entry-evidence form.container .form-actions {
   background: #fff;
   border: 0;
   padding: 0;
 }
 
-#evidence-node-form .help-block {
+.view-entry-evidence form.container .help-block {
   padding: 6px 20px;
   margin: 0 0 0 20px !important;
   float: left;
   width: 50%;
 }
 
-#evidence-node-form #edit-field-evidence-status,
-#evidence-node-form #edit-field-evidence-date,
-#evidence-node-form #edit-field-evidence-link {
+.view-entry-evidence form.container div.field-name-field-evidence-status,
+.view-entry-evidence form.container div.field-name-field-evidence-date,
+.view-entry-evidence form.container div.field-name-field-evidence-link {
   overflow: hidden;
 }
 
-#evidence-node-form #edit-field-evidence-status .btn-group{
+.view-entry-evidence form.container .field-name-field-evidence-status .btn-group{
   float: left;
 }
 
-#evidence-node-form #edit-field-evidence-date-und-0-value-datepicker-popup-0 {
+.view-entry-evidence form.container .form-type-date-popup .form-type-textfield input.form-text {
   float: left;
   width: 118px;
 }
 
-#evidence-node-form .link-field-subrow {
+.view-entry-evidence form.container .link-field-subrow {
   float: left;
 }
 
 
-#evidence-node-form {
+.view-entry-evidence form.container {
   clear: both;
 }
 
-#evidence-node-form .container-inline-date .date-padding {
+.view-entry-evidence form.container .container-inline-date .date-padding {
   padding: 15px 0 10px;
   width: 100%;
 }
 
-#evidence-node-form .container-inline-date .form-item, 
-#evidence-node-form .container-inline-date .form-item input {
+.view-entry-evidence form.container .container-inline-date .form-item, 
+.view-entry-evidence form.container .container-inline-date .form-item input {
   width: 100%;
 }
 
