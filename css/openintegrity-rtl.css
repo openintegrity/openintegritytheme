@@ -526,7 +526,9 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 
 .language-link {
 	
-	margin-right:30px;
+position: relative;
+top: -26px;
+left: 59px;
 	
 }
 
