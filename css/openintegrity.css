@@ -786,7 +786,7 @@ h3.nested-title .span-block {
 .view-entry-evidence form.container div.field-name-field-evidence-status,
 .view-entry-evidence form.container div.field-name-field-evidence-date,
 .view-entry-evidence form.container div.field-name-field-evidence-link {
-  overflow: hidden;
+  clear: both;
 }
 
 .view-entry-evidence form.container .field-name-field-evidence-status .btn-group,
