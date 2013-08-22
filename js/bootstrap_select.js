@@ -4,7 +4,7 @@
  * Author: John Rocela 2012 <me@iamjamoy.com>
  */
 jQuery(function($){
-        $('select').each(function(i, e){
+        $('select:visible').each(function(i, e){
                 if (!($(e).data('convert') == 'no')) {
                         $(e).hide().wrap('<div class="btn-group" id="select-group-' + i + '" />');
                         var select = $('#select-group-' + i);
