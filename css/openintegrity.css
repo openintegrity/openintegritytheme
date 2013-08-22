@@ -506,6 +506,8 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 .view-entry .group-level-1 .view-grouping-header {
   /*padding: 10px 20px;*/
   font-family: 'Metrophobic', Arial, serif;
+  cursor: pointer; 
+  cursor: hand;
 }
 
 .view-entry .group-level-1:nth-child(2n+1) .view-grouping-header {
@@ -550,6 +552,9 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 
 .view-entry .group-level-1 .nested-title{
   margin-left: 28px;
+  cursor: pointer; 
+  cursor: hand;
+
 }
 
 .view-entry .group-level-1 .index-trigger {
