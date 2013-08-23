@@ -663,7 +663,7 @@ h1 .index-trigger {
 }
 
 .view-entry .group-level-1 .view-header h4 {
-  float: left;
+  float: right;
   font-weight: normal;
   font-size: .8em;
 }
@@ -924,11 +924,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 /* -- RTL v.3.0
 ------------------------ */
 
-div.contextual-links-wrapper {
-	
-	right:3px;
-	left:auto;
-}
+
 
 /* -- Carousel
 ------------------------ */
