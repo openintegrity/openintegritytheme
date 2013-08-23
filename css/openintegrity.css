@@ -916,7 +916,7 @@ h3.nested-title .span-block {
 ------------------------ */
 
 #viewport{
-	width: 580px; /* Defines the size of the visible part of the carousel
+//	width: 580px; /* Defines the size of the visible part of the carousel
 		Attention : if you only want to see plain items in the viewport,
 		the width of the viewport should take into account of :
 		- the items width
@@ -933,7 +933,7 @@ h3.nested-title .span-block {
 	margin: 0;
 }
 #viewport li{
-	width: 280px; /* Defines the size of inner element */
+	width: 250px; /* Defines the size of inner element */
 	height: 82px;
 	float: left; /* Places list items side by side*/
 	list-style: none; /* Resets default - User Agent - style */
@@ -951,7 +951,6 @@ h3.nested-title .span-block {
 }
 
 .carousel-slide {
-  width: 280px;
   overflow: hidden;
   margin: 0 20px 20px 0;
   float: left;

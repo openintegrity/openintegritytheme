@@ -52,16 +52,16 @@
   <?php endif; ?>
 
   <?php if ($rows): ?>
-	<div id="carousel-title">
+	<div id="carousel-title" class="span3">
 	  <h2>Alternatives to this Tool</h2>
 	  <a id="simplePrevious">&lt;</a>
 	  <a id="simpleNext">&gt;</a>
 	</div>
-    <div id="viewport">
+        <div id="viewport" class="span9">
 	  <ul>
-        <?php print $rows; ?>
-      </ul>
-    </div>
+          <?php print $rows; ?>
+          </ul>
+        </div>
   <?php elseif ($empty): ?>
     <div class="view-empty">
       <?php print $empty; ?>
