@@ -899,6 +899,13 @@ margin-left: 10px;
 float: right;	
 }
 
+.btn-group {
+	direction:ltr;
+}
+
+.compact-form-wrapper {
+	text-align:right;
+}
 
 
 /* -- Carousel
