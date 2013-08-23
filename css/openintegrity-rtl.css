@@ -57,6 +57,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
+  padding:4px;
 }
 
 /* -- Header
