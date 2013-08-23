@@ -60,9 +60,12 @@
 
   <?php print render($content); ?>
 
+  <?php $alternatives = views_embed_view('alternatives', 'default') ?>
+  <?php if (!strpos($alternatives, "no alternatives")): ?> 
   <div class="row row-entry">
-    <div class="container"><?php print views_embed_view('alternatives', 'default', $node->nid); ?></div>
+    <div class="container"><?php print $alternatives; ?></div>
   </div>
+  <?php endif; ?>
       
   <div class="container"> 
   <?php if (FALSE): /*(!empty($content['field_tags']) || !empty($content['links'])):*/ ?>
