@@ -887,8 +887,18 @@ h3.nested-title .span-block {
 	float:right;
 	padding: 6px 41px;
 
-	
 }
+
+
+.radio input[type="radio"], .checkbox input[type="checkbox"] {
+float: right;
+margin-left: 10px;
+}
+
+.link-field-url {
+float: right;	
+}
+
 
 
 /* -- Carousel
