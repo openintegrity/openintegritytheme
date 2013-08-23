@@ -933,7 +933,7 @@ h3.nested-title .span-block {
 	margin: 0;
 }
 #viewport li{
-	width: 250px; /* Defines the size of inner element */
+	width: 270px; /* Defines the size of inner element */
 	height: 82px;
 	float: left; /* Places list items side by side*/
 	list-style: none; /* Resets default - User Agent - style */
@@ -983,8 +983,8 @@ h3.nested-title .span-block {
 
 #carousel-title {
   width: 250px;
-  padding-right: 70px;
   float: left;
+  padding-right:10px;
 }
 
 #carousel-title h2 {
