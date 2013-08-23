@@ -59,9 +59,13 @@
   </div>
 
   <?php print render($content); ?>
-    
+
+  <div class="row row-entry">
+    <div class="container"><?php print views_embed_view('alternatives', 'default', $node->nid); ?></div>
+  </div>
+      
   <div class="container"> 
-  <?php if (!empty($content['field_tags']) || !empty($content['links'])): ?>
+  <?php if (FALSE): /*(!empty($content['field_tags']) || !empty($content['links'])):*/ ?>
     <footer>
       <?php print render($content['field_tags']); ?>
       <?php print render($content['links']); ?>
