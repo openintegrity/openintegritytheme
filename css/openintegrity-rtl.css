@@ -628,10 +628,10 @@ left: 59px;
 .view-entry .group-level-0 .criteria-score {
   float:left;
   background-color: #f8f8fc;
-  padding: 30px 22px;
+  padding: 30px 13px;
   border-left: #f1eff7 solid 1px;
   border-right: #f1eff7 solid 1px;
-  margin-left: 30px;
+  margin-left: 20px;
 }
 .view-entry .group-level-0 .accordion-header-title h2 {
   margin-top: 36px;
