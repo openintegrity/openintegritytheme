@@ -12,7 +12,7 @@ jQuery(document).ready(function () {
       if(!$target.hasClass('active')){
          allPanels.removeClass('active').slideUp();
          $target.addClass('active').slideDown(function() {
-           $('body').animate({scrollTop:$target.offset().top-100},200);
+//           $('body').animate({scrollTop:$target.offset().top-100},200);
          });
       } else {
         allPanels.removeClass('active').slideUp();
@@ -31,9 +31,11 @@ jQuery(document).ready(function () {
          });
          window.location.hash = $this.attr('id');
       } else {
-        nestedPanels.removeClass('active').slideUp();
-        $target.removeClass('active').slideUp();
-         window.location.hash = '';
+//        nestedPanels.removeClass('active').slideUp();
+        $target.removeClass('active').slideUp(function() {
+           $('body').animate({scrollTop:$target.offset().top-100},200);
+         });
+        window.location.hash = '';
       }
   });
 
