@@ -607,7 +607,7 @@ left: 59px;
 }
 
 .view-entry .group-level-1 .nested-title .index-trigger {
-  margin: 10px 0 0 20px;
+  margin: 10px 22px 0 -19px;
 }
 
 .view-entry .group-level-1 .claim-score {
@@ -925,6 +925,18 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 /* -- RTL v.3.0
 ------------------------ */
 
+.submit-evidence {
+	float:right;
+	background-position-x: right;
+	padding-right: 18px;
+}
+}
+
+.share-claim {
+	float:right;
+        background-position-x: right;
+	padding-right: 18px;
+}
 
 
 /* -- Carousel
