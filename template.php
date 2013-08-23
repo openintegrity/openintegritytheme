@@ -343,7 +343,7 @@ function bootstrap_preprocess_html(&$variables) {
   $theme_path = path_to_theme();
   $path = drupal_get_path_alias();
   $node = menu_get_object();
-  if($path == 'alternatives' || $node->type == 'entry' ) {
+  if($path == 'alternatives' || ( $node && $node->type == 'entry')) {
       drupal_add_js($theme_path . '/js/jquery.infinite-carousel.js');
       drupal_add_js('
 	  	jQuery(document).ready(function(){
