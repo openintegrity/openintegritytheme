@@ -51,7 +51,9 @@
       <div class="entry-title span6 clearfix">
         <?php print render($content['field_logo']); ?>
         <h2<?php print $title_attributes; ?>><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h2>
-        <?php print $node->body[$node->language][0]['safe_value']; ?>
+        <?php
+           global $language_content; 
+           print $node->body[$language_content->language][0]['safe_value']; ?>
 	  </div>
     </div>
   </div>
