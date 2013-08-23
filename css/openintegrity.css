@@ -78,7 +78,6 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 }
 
 .row-content {
-//  padding-bottom: 80px;
 }
 
 
@@ -916,7 +915,7 @@ h3.nested-title .span-block {
 ------------------------ */
 
 #viewport{
-//	width: 580px; /* Defines the size of the visible part of the carousel
+/*	width: 580px; * Defines the size of the visible part of the carousel
 		Attention : if you only want to see plain items in the viewport,
 		the width of the viewport should take into account of :
 		- the items width
@@ -946,7 +945,7 @@ h3.nested-title .span-block {
 	color:#000;
 }
 
-#simplePrevious:hover, #simpleNext:hover;{
+#simplePrevious:hover, #simpleNext:hover {
   text-decoration: none;
 }
 
