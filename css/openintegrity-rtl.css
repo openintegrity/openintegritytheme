@@ -850,6 +850,8 @@ h3.nested-title .span-block {
 
 .view-entry-evidence .views-row .developer {
   background: url('../img/developer.png') no-repeat 16px 14px;
+  background-position:right;
+  padding:0 20px 10px 0;
 }
 
 .view-entry-evidence .views-row .peer-reviewer {
@@ -917,6 +919,15 @@ float: right;
 
 select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
 	padding:4px;
+}
+
+/* -- RTL v.3.0
+------------------------ */
+
+div.contextual-links-wrapper {
+	
+	right:3px;
+	left:auto;
 }
 
 /* -- Carousel
