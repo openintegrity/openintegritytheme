@@ -581,11 +581,13 @@ left: 59px;
 .view-entry .group-level-1 .view-grouping-content h3.disputed .container {
   color: #f6917d;
   background: url('../img/disputed.png') no-repeat center right;
+  padding-right:10px;
 }
 
 .view-entry .group-level-1 .view-grouping-content h3.unsubstantiated .container {
   color: #949494;
   background: url('../img/unsubstantiated.png') no-repeat center right;
+  padding-right:10px;
 }
 
 .view-entry .group-level-1 .nested-title{
