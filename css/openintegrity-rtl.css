@@ -580,12 +580,12 @@ left: 59px;
 
 .view-entry .group-level-1 .view-grouping-content h3.disputed .container {
   color: #f6917d;
-  background: url('../img/disputed.png') no-repeat center left;
+  background: url('../img/disputed.png') no-repeat center right;
 }
 
 .view-entry .group-level-1 .view-grouping-content h3.unsubstantiated .container {
   color: #949494;
-  background: url('../img/unsubstantiated.png') no-repeat center left;
+  background: url('../img/unsubstantiated.png') no-repeat center right;
 }
 
 .view-entry .group-level-1 .nested-title{
@@ -610,7 +610,7 @@ left: 59px;
 }
 
 .view-entry .group-level-1 .claim-score {
-  float: right;
+  float: left;
   width: 78px;
   display: block;
   text-align: center;
@@ -618,7 +618,7 @@ left: 59px;
 }
 
 .view-entry .group-level-1 .claim-status {
-  float: right;
+  float: left;
   font-size: 10px;
 }
 .view-entry .group-level-1 .subcriteria-score {
