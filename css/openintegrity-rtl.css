@@ -590,7 +590,7 @@ left: 59px;
 
 .view-entry .group-level-1 .nested-title{
   margin-left: 28px;
-  padding-right:12px;
+  padding-right:23px;
 }
 
 .view-entry .group-level-1 .index-trigger {
@@ -922,6 +922,8 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 	padding:4px;
 }
 
+
+
 /* -- RTL v.3.0
 ------------------------ */
 
@@ -935,6 +937,11 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 	float:right;
         background-position-x: right;
 	padding-right: 18px;
+}
+
+
+#carousel-title {
+float: right;
 }
 
 
@@ -1011,7 +1018,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 #carousel-title {
   width: 250px;
   padding-right: 70px;
-  float: left;
+ 
 }
 
 #carousel-title h2 {
@@ -1023,7 +1030,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 [class*="span"] {
    
     min-height: 1px;
-	margin-right: 20px;
+	margin-right: 0px;
 	margin-left: 0;
 	float:right;
 }
