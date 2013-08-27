@@ -612,7 +612,7 @@ left: 59px;
 
 .view-entry .group-level-1 .claim-score {
   float: left;
-  width: 56px;
+  width: 78px;
   display: block;
   text-align: center;
   font-size: 10px;
@@ -639,7 +639,7 @@ left: 59px;
   padding: 30px 13px;
   border-left: #f1eff7 solid 1px;
   border-right: #f1eff7 solid 1px;
-  margin-left: 30px;
+  margin-left: 40px;
 }
 .view-entry .group-level-0 .accordion-header-title h2 {
   margin-top: 36px;
