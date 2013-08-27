@@ -770,8 +770,12 @@ h3.nested-title .span-block {
   margin: 0 0 30px 0;
 }
 
-.view-entry-evidence form.container .field-type-datetime legend {
+.view-entry-evidence form.container .group-evidence-information legend {
   display: none;
+}
+
+.view-entry-evidence form.container .group-evidence-information .group-additional-information legend {
+  display: block;
 }
 
 .view-entry-evidence form.container .form-actions {
