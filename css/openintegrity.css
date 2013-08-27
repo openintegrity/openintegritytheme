@@ -771,11 +771,11 @@ h3.nested-title .span-block {
 }
 
 .view-entry-evidence form.container .group-evidence-information legend {
-  display: none;
+display: none;
 }
 
 .view-entry-evidence form.container .group-evidence-information .group-additional-information legend {
-  display: block;
+display: block;
 }
 
 .view-entry-evidence form.container .form-actions {
@@ -1054,4 +1054,3 @@ h4.about-left {
   margin-left:20px;
   max-width:35%;
 }
-
