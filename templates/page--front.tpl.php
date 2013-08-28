@@ -10,7 +10,7 @@
       </a>
 
       <?php if (!empty($logo)): ?>
-	    <div id="logo-wrapper" class="span4">
+	    <div id="logo-wrapper" class="span3">
           <a class="logo pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
             <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
           </a>
@@ -18,7 +18,7 @@
       <?php endif; ?>
 
       <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
-        <div class="nav-collapse collapse span8">
+        <div class="nav-collapse collapse span9">
           <nav role="navigation" id="nav">
             <?php if (!empty($primary_nav)): ?>
               <?php print render($primary_nav); ?>
