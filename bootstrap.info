@@ -68,3 +68,6 @@ core = "7.x"
 project = "bootstrap"
 datestamp = "1372204551"
 
+l10n server = dev.openintegrity.org
+l10n url = https://dev.openintegrity.org/sites/all/translations/l10n_server.xml
+l10n path = https://dev.openintegrity.org/sites/all/translations/code/custom/bootstrap_oii.%language.po
