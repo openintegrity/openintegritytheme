@@ -1,0 +1,256 @@
+#: template.php:43
+msgid "For easier theme development, the theme registry is being rebuilt on every page request. It is <em>extremely</em> important to <a href=\"!link\">turn off this feature</a> on production websites."
+msgstr ""
+
+#: template.php:310
+msgid "Search"
+msgstr ""
+
+#: theme-settings.php:13
+msgid "Theme development settings"
+msgstr ""
+
+#: theme-settings.php:18
+msgid "Rebuild theme registry on every page."
+msgstr ""
+
+#: theme-settings.php:20
+msgid "During theme development, it can be very useful to continuously <a href=\"!link\">rebuild the theme registry</a>."
+msgstr ""
+
+#: theme-settings.php:20
+msgid "WARNING: this is a huge performance penalty and must be turned off on production websites. "
+msgstr ""
+
+#: theme-settings.php:25
+msgid "Theme cdn settings"
+msgstr ""
+
+#: theme-settings.php:30
+msgid "Use CDN to load in the bootstrap files"
+msgstr ""
+
+#: theme-settings.php:32
+msgid "Use cdn (a third party hosting server) to host the bootstrap files, Bootstrap Theme will not use the local CSS files anymore and instead the visitor will download them from "
+msgstr ""
+
+#: theme-settings.php:33
+msgid "WARNING: this technique will give you a performance boost but will also make you dependant on a third party who has no obligations towards you concerning uptime and service quality."
+msgstr ""
+
+#: theme-settings.php:47
+msgid "Bootstrap version"
+msgstr ""
+
+#: bootstrap.info:0
+msgid "Open Integrity Index Theme"
+msgstr ""
+
+#: bootstrap.info:0
+msgid "Built to use Bootstrap, a sleek, intuitive, and powerful front-end framework for faster and easier web development."
+msgstr ""
+
+#: bootstrap.info:0
+msgid "Navigation"
+msgstr ""
+
+#: bootstrap.info:0
+msgid "Top Bar"
+msgstr ""
+
+#: bootstrap.info:0
+msgid "Highlighted"
+msgstr ""
+
+#: bootstrap.info:0
+msgid "Help"
+msgstr ""
+
+#: bootstrap.info:0
+msgid "Icons"
+msgstr ""
+
+#: bootstrap.info:0
+msgid "Content"
+msgstr ""
+
+#: bootstrap.info:0
+msgid "Primary"
+msgstr ""
+
+#: bootstrap.info:0
+msgid "Secondary"
+msgstr ""
+
+#: bootstrap.info:0
+msgid "Icons Bottom"
+msgstr ""
+
+#: bootstrap.info:0
+msgid "Footer"
+msgstr ""
+
+#: form.inc:32;53;240
+msgid "Search"
+msgstr ""
+
+#: form.inc:223
+msgid "Save and add"
+msgstr ""
+
+#: form.inc:224
+msgid "Add another item"
+msgstr ""
+
+#: form.inc:225
+msgid "Add effect"
+msgstr ""
+
+#: form.inc:226
+msgid "Add and configure"
+msgstr ""
+
+#: form.inc:227
+msgid "Update style"
+msgstr ""
+
+#: form.inc:228
+msgid "Download feature"
+msgstr ""
+
+#: form.inc:231
+msgid "Save"
+msgstr ""
+
+#: form.inc:232
+msgid "Apply"
+msgstr ""
+
+#: form.inc:233
+msgid "Create"
+msgstr ""
+
+#: form.inc:234
+msgid "Confirm"
+msgstr ""
+
+#: form.inc:235
+msgid "Submit"
+msgstr ""
+
+#: form.inc:236
+msgid "Export"
+msgstr ""
+
+#: form.inc:237
+msgid "Import"
+msgstr ""
+
+#: form.inc:238
+msgid "Restore"
+msgstr ""
+
+#: form.inc:239
+msgid "Rebuild"
+msgstr ""
+
+#: form.inc:241
+msgid "Add"
+msgstr ""
+
+#: form.inc:242
+msgid "Update"
+msgstr ""
+
+#: form.inc:243
+msgid "Delete"
+msgstr ""
+
+#: form.inc:244
+msgid "Remove"
+msgstr ""
+
+#: (duplicate) form.inc:208 
+msgid "!title !required"
+msgstr ""
+
+#: icons.inc:13;26
+msgid "Bootstrap"
+msgstr ""
+
+#: icons.inc:27
+msgid "Icons by Glyphicons"
+msgstr ""
+
+#: icons.inc:29
+msgid "White"
+msgstr ""
+
+#: menu.inc:10;17
+msgid "Primary tabs"
+msgstr ""
+
+#: menu.inc:39
+msgid "(active tab)"
+msgstr ""
+
+#: menu.inc:47
+msgid "!local-task-title!active"
+msgstr ""
+
+#: pager.inc:57
+msgid "first"
+msgstr ""
+
+#: pager.inc:58
+msgid "previous"
+msgstr ""
+
+#: pager.inc:59
+msgid "next"
+msgstr ""
+
+#: pager.inc:60
+msgid "last"
+msgstr ""
+
+#: theme.inc:228
+msgid "Status message"
+msgstr ""
+
+#: theme.inc:229
+msgid "Error message"
+msgstr ""
+
+#: theme.inc:230
+msgid "Warning message"
+msgstr ""
+
+#: theme.inc:231
+msgid "Informative message"
+msgstr ""
+
+#: comment-wrapper.tpl.php:4
+msgid "Comments"
+msgstr ""
+
+#: comment-wrapper.tpl.php:12
+msgid "Add new comment"
+msgstr ""
+
+#: html.tpl.php:17
+msgid "Skip to main content"
+msgstr ""
+
+#: page--entry.tpl.php:14;15
+msgid "Home"
+msgstr ""
+
+#: page--front.tpl.php:14;15
+msgid "Home"
+msgstr ""
+
+#: page.tpl.php:14;15
+msgid "Home"
+msgstr ""
+

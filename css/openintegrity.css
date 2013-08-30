@@ -40,11 +40,11 @@ h6 {
 }
 
 a {
-  color: #4d55a5;
+  color: #4138e8;
 }
 
 a:hover {
-  color: #4d55a5;
+  color: #4138e8;
 }
 
 p {
@@ -135,7 +135,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 
 #nav li a:hover,
 #nav li a.active {
-	background: #4d55a5;
+	background: #4138e8;
 	color: #fff;
 	-webkit-border-radius: 7px;
 	border-radius: 7px;
@@ -210,7 +210,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 }
 
 .btn-primary {
-  background: #4d55a5;
+  background: #4138e8;
   color: #fff;
   border-color: transparent;
   -webkit-box-shadow: 1px 1px 0 rgba(40,37,144,0.75);
@@ -220,7 +220,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 
 .btn:hover,
 .btn:active {
-  background-color: #4d55a5;
+  background-color: #4138e8;
   color: #fff;
 }
 
@@ -474,16 +474,16 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 
 .form-type-select .btn {
   color: #fff;
-  background-color: #4d55a5;
+  background-color: #4138e8;
 }
 
 .form-type-select .btn:hover, .form-type-select .btn:active, .form-type-select .btn.active, .form-type-select .btn.disabled, .form-type-select .btn[disabled] {
   color: #fff;
-  background-color: #4d55a5;
+  background-color: #4138e8;
 }
 
 .form-type-select .btn-group.open .btn.dropdown-toggle {
-  background-color: #4d55a5;
+  background-color: #4138e8;
 }
 
 .form-type-select .caret {
@@ -604,7 +604,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 }
 .view-entry .group-level-0 .accordion-header-title h2 {
   margin-top: 36px;
-  color: #4d55a5;
+  color: #4138e8;
 }
 
 .view-entry .group-level-1 .subcriteria-info {
@@ -833,7 +833,7 @@ display: block;
 .submit-evidence {
   background: url('../img/submit-arrow.png') no-repeat left 3px;
   font-size: 16px;
-  color: #4d55a5;
+  color: #4138e8;
   float: left;
   padding-left: 20px;
   margin: 0 0 12px 10px;
@@ -841,7 +841,7 @@ display: block;
 
 .share-claim {
   background: url('../img/link-teaser.png') no-repeat center left;
-  display: block;
+  display: none;// block;
   float: left;
   padding-left: 18px;
   margin-left: 110px;
@@ -876,7 +876,7 @@ display: block;
 }
 
 .view-entry-evidence .node-teaser .link {
-  color: #4d55a5;
+  color: #4138e8;
 }
 
 .view-entry-evidence .node-teaser .link a {
@@ -904,6 +904,10 @@ display: block;
 
 .submitted-by {
   font-size: 11px;
+}
+
+.node-evidence .field-name-body {
+  font-size:11px;
 }
 
 .node-type-entry .comment-wrapper {
@@ -991,7 +995,7 @@ display: block;
 }
 
 #carousel-title h2 {
-  color: #4d55a5;
+  color: #4138e8;
   margin-bottom: 10px;
 }
 
@@ -1015,6 +1019,12 @@ display: block;
 .img-basics-left {
   float:left;
   clear:both;
+}
+
+.img-center {
+  clear:both;
+  display:block;
+  margin: 35px auto;
 }
 
 .node-page h2 {
@@ -1062,4 +1072,8 @@ h4.about-left {
 
 html.js fieldset.collapsed .fieldset-legend {
 background-image: none;
+}
+
+.node-page h3 {
+  margin-top:35px;
 }
