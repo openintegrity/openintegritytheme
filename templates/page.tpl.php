@@ -1,7 +1,7 @@
 <div class="row row-header">
 <header id="navbar" role="banner" class="navbar container">
   <div class="navbar-inner">
-    <div class="span12">
+    <div class="">
       <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
       <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
         <span class="icon-bar"></span>
@@ -10,7 +10,7 @@
       </a>
 
       <?php if (!empty($logo)): ?>
-	    <div id="logo-wrapper" class="span3">
+	    <div id="logo-wrapper" class="">
           <a class="logo pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
             <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
           </a>
@@ -18,7 +18,7 @@
       <?php endif; ?>
 
       <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
-        <div class="nav-collapse collapse span9">
+        <div class="nav-collapse collapse">
           <nav role="navigation" id="nav">
             <?php if (!empty($primary_nav)): ?>
               <?php print render($primary_nav); ?>
