@@ -99,8 +99,6 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 }
 
 #nav ul {
-  float: right !important;
-	
   margin: 1.5em 0;
   padding: 0;
   list-style: none;
@@ -111,6 +109,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 }
 
 #nav li {
+  clear:both;
   display: block;
   float: left;
   width: 100%;
