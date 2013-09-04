@@ -16,9 +16,11 @@ jQuery.fn.incarousel = function(previous, next, options){
 		firstElementOnViewPort = 1,
 		isAnimating = false;
 		
-		for (i = 0; i < shownInViewport; i++) {
-			jQuery(sliderList).css('width',(numElmts+shownInViewport)*increment + increment + "px");
+		if (elmnts.length >1) {
+  		  for (i = 0; i < shownInViewport; i++) {
+  			jQuery(sliderList).css('width',(numElmts+shownInViewport)*increment + increment + "px");
 			jQuery(sliderList).append(jQuery(elmnts[i]).clone());
+		  }
 		}
 		
 		jQuery(previous).click(function(event){
