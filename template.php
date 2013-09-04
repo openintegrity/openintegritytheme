@@ -334,12 +334,19 @@ function bootstrap_preprocess_node(&$vars) {
     $vars['theme_hook_suggestions'][] = 'node__' . $vars['node']->type . '__badge';   
     $vars['theme_hook_suggestions'][] = 'node__' . $vars['node']->nid . '__badge';
   }
+  if($vars['view_mode'] == 'overlay_teaser') {
+    $vars['theme_hook_suggestions'][] = 'node__' . $vars['node']->type . '__overlay';   
+    $vars['theme_hook_suggestions'][] = 'node__' . $vars['node']->nid . '__overlay';
+  }
 }
 
 /**
  * 
  */
 function bootstrap_preprocess_html(&$variables) {
+//  if($variables['view_mode'] == 'overlay_teaser') {
+//      $variables['theme_hook_suggestions'][] = 'html__' . $variables['node']->type . '__overlay';
+//  }
   $theme_path = path_to_theme();
   $path = drupal_get_path_alias();
   $node = menu_get_object();
