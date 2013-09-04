@@ -65,7 +65,7 @@
 
   <?php print render($content); ?>
 
-  <?php $alternatives = views_embed_view('alternatives', 'default') ?>
+  <?php $alternatives = views_embed_view('alternatives', 'page') ?>
   <?php if (!strpos($alternatives, "no alternatives")): ?> 
   <div class="row row-entry">
     <div class="container"><?php print $alternatives; ?></div>
