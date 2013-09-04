@@ -1,7 +1,7 @@
 <div class="row row-header">
 <header id="navbar" role="banner" class="navbar container">
   <div class="navbar-inner">
-    <div class="">
+    <div class="span12">
       <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
       <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
         <span class="icon-bar"></span>
