@@ -33,7 +33,15 @@
         $policy_results = views_get_view_result('iterate_entries_for_scoring','views_rules_3', $pnid, 60);
         foreach ($policy_results as $sub) {
           $subindex = entity_metadata_wrapper('node', $sub->field_subindex_index_node_nid);
-          echo '<li><img src="https://openintegrity.org/badge/img/' . $subindex->field_subindex_score->value()->name . 'Tiny.png" alt=""/>';
+          $subindex_img = $subindex->field_subindex_score->value()->name;
+          $status = $subindex->field_subindex_status;
+          $status_arr = $status->raw();
+          if (!(empty($status_arr))) {
+            if ($status->value()[0]->name == "Unsubstantiated") { $subindex_img = "unsubstantiated";}
+            if ($status->value()[0]->name == "Disputed") { $subindex_img = "disputed";}
+            if ($status->value()[0]->name == "Outdated") { $subindex_img = "outdated";}
+          }
+          echo '<li class="'. $subindex_img . '"><img src="https://openintegrity.org/badge/img/' . $subindex_img . 'Tiny.png" alt=""/>';
           echo $subindex->field_subcriteria->value()->name;
           echo '</li>';
         }
@@ -55,7 +63,15 @@
         $security_results = views_get_view_result('iterate_entries_for_scoring','views_rules_3', $snid, 60);
         foreach ($security_results as $sub) {
           $subindex = entity_metadata_wrapper('node', $sub->field_subindex_index_node_nid);
-          echo '<li><img src="https://openintegrity.org/badge/img/' . $subindex->field_subindex_score->value()->name . 'Tiny.png" alt=""/>';
+          $subindex_img = $subindex->field_subindex_score->value()->name;
+          $status = $subindex->field_subindex_status;
+          $status_arr = $status->raw();
+          if (!(empty($status_arr))) {
+            if ($status->value()[0]->name == "Unsubstantiated") { $subindex_img = "unsubstantiated";}
+            if ($status->value()[0]->name == "Disputed") { $subindex_img = "disputed";}
+            if ($status->value()[0]->name == "Outdated") { $subindex_img = "outdated";}
+          }
+          echo '<li class="'. $subindex_img . '"><img src="https://openintegrity.org/badge/img/' . $subindex_img . 'Tiny.png" alt=""/>';
           echo $subindex->field_subcriteria->value()->name;
           echo '</li>';
         }
@@ -77,7 +93,15 @@
         $privacy_results = views_get_view_result('iterate_entries_for_scoring','views_rules_3', $prnid, 60);
         foreach ($privacy_results as $sub) {
           $subindex = entity_metadata_wrapper('node', $sub->field_subindex_index_node_nid);
-          echo '<li><img src="https://openintegrity.org/badge/img/' . $subindex->field_subindex_score->value()->name . 'Tiny.png" alt=""/>';
+          $subindex_img = $subindex->field_subindex_score->value()->name;
+          $status = $subindex->field_subindex_status;
+          $status_arr = $status->raw();
+          if (!(empty($status_arr))) {
+            if ($status->value()[0]->name == "Unsubstantiated") { $subindex_img = "unsubstantiated";}
+            if ($status->value()[0]->name == "Disputed") { $subindex_img = "disputed";}
+            if ($status->value()[0]->name == "Outdated") { $subindex_img = "outdated";}
+          }
+          echo '<li class="'. $subindex_img . '"><img src="https://openintegrity.org/badge/img/' . $subindex_img . 'Tiny.png" alt=""/>';
           echo $subindex->field_subcriteria->value()->name;
           echo '</li>';
         }
@@ -98,8 +122,8 @@
   <div class="grey-belt middle-row">
     <div id="carousel-title" class="carousel-title">
         <h2>Alternatives to<br/>this tool</h2>
-              <a id="simplePrevious"><img src="img/slider-previous.png" alt="slider-previous" width="18px" height=" 18px;" /></a>
-              <a id="simpleNext"><img src="img/slider-next.png" alt="slider-next" width="18px" height=" 18px;" /></a>
+              <a id="simplePrevious"><img src="https://openintegrity.org/badge/img/slider-previous.png" alt="slider-previous" width="18px" height=" 18px;" /></a>
+              <a id="simpleNext"><img src="https://openintegrity.org/badge/img/slider-next.png" alt="slider-next" width="18px" height=" 18px;" /></a>
     </div>
     <div id="viewport">
       <ul>
@@ -128,7 +152,7 @@
   <div class="bottom-row">
     <div class="col-1">
       <div class="col-left">
-        <img src="img/open-integrity-space.png" alt=""/>
+        <img src="https://openintegrity.org/badge/img/open-integrity-space.png" alt=""/>
           <h1>Open Integrity Index</h1>
       </div>
       <div class="col-right">
