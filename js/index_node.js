@@ -23,11 +23,16 @@ jQuery(document).ready(function () {
   $('.group-level-1 .view-grouping-content > h3').click(function() {
       $this = $(this);
       $target =  $this.next();
-
+      $evidence = $(this).next().children('.claim-evidence');
+      
       if(!$target.hasClass('active')){
          nestedPanels.removeClass('active').slideUp();
-         $target.addClass('active').slideDown(function() {
-           $('body').animate({scrollTop:$target.offset().top-100},200);
+         var enid = $evidence.attr('id');
+         $.get("https://openintegrity.org/claim/"+enid+"/evidences", function(data) {
+           $evidence.html($evidence.html() + data);
+           $target.addClass('active').slideDown(function() {
+             $('body').animate({scrollTop:$target.offset().top-100},200);
+           });
          });
          window.location.hash = $this.attr('id');
       } else {
@@ -40,7 +45,9 @@ jQuery(document).ready(function () {
   });
 
   if ( window.location.hash ) {
-      $(window.location.hash).click().parent().parent().children('.view-grouping-header').children('h2').click();
+      $(window.location.hash).parent().parent().children('.view-grouping-header').children('h2').click(); 
+      $(window.location.hash).delay(0).click();
+//      $(window.location.hash).click().parent().parent().children('.view-grouping-header').children('h2').click();
   }
     
 

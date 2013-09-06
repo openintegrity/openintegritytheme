@@ -4,7 +4,10 @@
  * Author: John Rocela 2012 <me@iamjamoy.com>
  */
 jQuery(function($){
-        $('select:visible').each(function(i, e){
+        $('select:visible').each(function(i,e) {attach(i,e) });
+        
+        
+        function attach(i, e) {
                 if (!($(e).data('convert') == 'no')) {
                         $(e).hide().wrap('<div class="btn-group" id="select-group-' + i + '" />');
                         var select = $('#select-group-' + i);
@@ -15,9 +18,17 @@ jQuery(function($){
                                 if ($(q).attr('selected')) select.find('.dropdown-menu li:eq(' + o + ')').click();
                         });
                         select.find('.dropdown-menu a').click(function() {
-                                select.find('input[type=hidden]').val($(this).data('value')).change();
+                                select.find('input[type=hidden]').val($(this).data('value'));
                                 select.find('.btn:eq(0)').text($(this).text());
+                                var form = $(this).closest("form");
+                                $(form).find('.ctools-auto-submit-click').click();
                         });
                 }
+        }
+        
+        $('body').bind('ajaxSuccess', function(data, status, xhr) {
+          $('select:visible').each(function(i,e) {
+            attach(i,e)
+            });
         });
 });
