@@ -12,7 +12,7 @@ jQuery(function($){
                         $(e).hide().wrap('<div class="btn-group" id="select-group-' + i + '" />');
                         var select = $('#select-group-' + i);
                         var current = ($(e).find(':selected').text()) ? $(e).find(':selected').text(): '&nbsp;';
-                        select.html('<input type="hidden" value="' + $(e).val() + '" name="' + $(e).attr('name') + '" id="' + $(e).attr('id') + '" class="' + $(e).attr('class') + '" /><a class="btn" href="javascript:;">' + current + '</a><a class="btn dropdown-toggle" data-toggle="dropdown" href="javascript:;"><span class="caret"></span></a><ul class="dropdown-menu"></ul>');
+                        select.html('<input type="hidden" value="' + $(e).val() + '" name="' + $(e).attr('name') + '" id="' + $(e).attr('id') + '" class="' + $(e).attr('class') + '" /><a class="btn dropdown-toggle" data-toggle="dropdown" href="javascript:;">' + current + '&nbsp;&nbsp;<span class="caret"></span></a><ul class="dropdown-menu"></ul>');
                         $(e).find('option').each(function(o,q) {
                                 select.find('.dropdown-menu').append('<li><a href="javascript:;" data-value="' + $(q).attr('value') + '">' + $(q).text() + '</a></li>');
                                 if ($(q).attr('selected')) select.find('.dropdown-menu li:eq(' + o + ')').click();
