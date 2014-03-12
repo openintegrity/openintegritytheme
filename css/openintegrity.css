@@ -133,8 +133,8 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
   color: #000;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 0 17px;
-  margin: 0 0 0 30px;
+  padding: 0 10px;
+  margin: 0 0 0 10px;
   float: left;
   font-weight: 300;
   line-height: 32px;
@@ -207,7 +207,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 ------------------------ */
 
 .btn {
-  padding: 6px 40px;
+  padding: 4px 20px;
   text-shadow: none;
   background-color: #ddd;
   background-image: none;
@@ -455,6 +455,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
   font-size: 14px;
   top: 8px;
   left: 10px;
+  line-height:16px;
 }
 
 .views-exposed-form .views-exposed-widget .form-select {
@@ -471,10 +472,8 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
   padding: 0 1em 0 0;
 }
 .view-browse .views-exposed-form .views-exposed-widget.views-widget-filter-search_api_views_fulltext {
-  width:50%;
 }
 .view-browse .views-exposed-form .views-exposed-widget.views-widget-filter-field_entry_type {
-  width:40%;
 }
 
 #views-exposed-form-browse-page {
@@ -1150,3 +1149,6 @@ background-image: none;
   float:left;
 }
 	
+.no-term-reference-tree-button {
+ background-color: #FFF;
+}
