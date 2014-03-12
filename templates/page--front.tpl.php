@@ -65,7 +65,7 @@
     <div class="container">
 
     <?php if (!empty($page['sidebar_first'])): ?>
-      <aside id="sidebar-first" class="span4" role="complementary">
+      <aside id="sidebar-first" class="span4 hidden-phone" role="complementary">
         <?php print render($page['sidebar_first']); ?>
       </aside>  <!-- /#sidebar-first -->
     <?php endif; ?>  
