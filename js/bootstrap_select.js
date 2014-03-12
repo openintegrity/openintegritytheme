@@ -4,7 +4,7 @@
  * Author: John Rocela 2012 <me@iamjamoy.com>
  */
 jQuery(function($){
-        $('select:visible').each(function(i,e) {attach(i,e) });
+        $('select').each(function(i,e) {attach(i,e) });
         
         
         function attach(i, e) {
@@ -27,7 +27,7 @@ jQuery(function($){
         }
         
         $('body').bind('ajaxSuccess', function(data, status, xhr) {
-          $('select:visible').each(function(i,e) {
+          $('select').each(function(i,e) {
             attach(i,e)
             });
         });

@@ -719,9 +719,22 @@ h3.nested-title .span-block {
   padding-top: 10px;
 }
 
+.view-entry .group-level-1 .view-grouping-content active {
+  display:block;
+}
+
+.view-entry .group-level-1 .view-grouping-content > .views-row active {
+  display:block;
+}
+
+.view-entry .group-level-1 .view-grouping-content > .views-row {
+  display:none;
+}
+
 .view-entry .group-level-1 .view-grouping-content {
   border-top: 1px solid #dfdbee;
   border-bottom: 1px solid #dfdbee;
+  display:none;
 }
 
 .node-type-entry .container-fluid {
@@ -1131,3 +1144,9 @@ background-image: none;
 .node-page h3 {
   margin-top:35px;
 }
+
+#edit-field-evidence-status-und {
+  width:100px;
+  float:left;
+}
+	

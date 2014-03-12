@@ -2,8 +2,8 @@ jQuery(document).ready(function () {
 
 (function($) {
     
-  var allPanels = $('.group-level-1 .view-grouping-content').hide();
-  var nestedPanels = $('.group-level-1 .view-grouping-content > .views-row').hide();
+  var allPanels = $('.group-level-1 .view-grouping-content');
+  var nestedPanels = $('.group-level-1 .view-grouping-content > .views-row');
   
   $('.group-level-1 .view-grouping-header > h2').click(function() {
       $this = $(this);
@@ -11,12 +11,16 @@ jQuery(document).ready(function () {
 
       if(!$target.hasClass('active')){
          allPanels.removeClass('active').slideUp();
+         nestedPanels.removeClass('active').slideUp();
          $target.addClass('active').slideDown(function() {
-//           $('body').animate({scrollTop:$target.offset().top-100},200);
+           $this.parents('.view-content').find('.claim-evidence').empty();
          });
       } else {
         allPanels.removeClass('active').slideUp();
-        $target.removeClass('active').slideUp();
+        nestedPanels.removeClass('active').slideUp();
+        $target.removeClass('active').slideUp(function() {
+          $this.parents('.view-content').find('.claim-evidence').empty();
+	});
       }
   });
     
@@ -28,26 +32,33 @@ jQuery(document).ready(function () {
       if(!$target.hasClass('active')){
          nestedPanels.removeClass('active').slideUp();
          var enid = $evidence.attr('id');
-         $.get("https://openintegrity.org/claim/"+enid+"/evidences", function(data) {
-           $evidence.html($evidence.html() + data);
+         $.get("/claim/"+enid+"/evidences", function(data) {
+           $evidence.html(data);
+
+           
            $target.addClass('active').slideDown(function() {
-             $('body').animate({scrollTop:$target.offset().top-100},200);
+//             $('body').animate({scrollTop:$target.offset().top-100},200);
            });
          });
-         window.location.hash = $this.attr('id');
+         window.location.hash = 'panel-' + $this.attr('id');
       } else {
 //        nestedPanels.removeClass('active').slideUp();
         $target.removeClass('active').slideUp(function() {
-           $('body').animate({scrollTop:$target.offset().top-100},200);
+//           $('body').animate({scrollTop:$target.offset().top-100},200);
+	     $this.parents('.view-content').find('.claim-evidence').empty();
          });
-        window.location.hash = '';
+//        window.location.hash = '';
       }
   });
 
-  if ( window.location.hash ) {
-      $(window.location.hash).parent().parent().children('.view-grouping-header').children('h2').click(); 
-      $(window.location.hash).delay(0).click();
-//      $(window.location.hash).click().parent().parent().children('.view-grouping-header').children('h2').click();
+  var h = window.location.hash.replace('panel-', '');
+
+  if ( h ) {
+      $(h).parent().parent().children('.view-grouping-header').children('h2').click();
+      $(h).delay(0).click();
+      setTimeout(function() {
+       $('body,html').animate({scrollTop:$(h).offset().top}, 200)
+      }, 200);
   }
     
 
