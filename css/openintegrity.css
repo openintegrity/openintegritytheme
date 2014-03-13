@@ -464,8 +464,9 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 
 #edit-search-api-views-fulltext {
   background: #FFF url('../img/search-bar.png') no-repeat 96% center;
-  padding: 6px 6px;
-  width: 100%;
+  padding: 5px 6px;
+  width: 180px;
+  float:right;
 }
 
 .view-browse .views-exposed-form .views-exposed-widget {
@@ -480,6 +481,11 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
   margin: 0 0 10px 0;
 }
 
+.view-browse .view-header {
+  float:right;
+  line-height: 30px;
+  font-weight: bold;
+}
 
 /* -- Node forms
 ------------------------ */
