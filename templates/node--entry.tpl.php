@@ -39,6 +39,8 @@
           <?php
              global $language_content; 
              print $node->body[$language_content->language][0]['safe_value']; 
+	     print render($content['field_download']);
+	     print render($content['field_home']);
           ?>
       </div>
       <div class="entry-meta span6 clearfix">
